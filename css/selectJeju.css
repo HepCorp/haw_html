@@ -1,0 +1,13 @@
+body {width: 100%; height: 100vh; background-color: #002946;}
+section { width: 100%; height: 100vh; background: url("../images/jejucity.png") no-repeat center; background-size: contain;}
+section h2 { position: absolute; width: 587px; height: 241px; left: 50%; top: 50%; margin-left: -830px; margin-top: -460px;}
+.contentsWrap { position: absolute; width: 100%; height: 100%; background: url("../images/longitude&latitude.png") no-repeat center;}
+.mainWrap { width: 100%; height: 100vh;  background: url("../images/outline.png") no-repeat center; background-size: contain;}
+.jejuMap { width: 100%; height: 100vh; background: url("../images/seogwipocity.png") no-repeat center; background-size: contain;}
+.location { position: absolute; width: 1650px; height: calc(100vh - 70px); margin: 35px auto;}
+.location p { position: absolute; font-family: SwiszRegular; font-size: 22px; color: #C3C3C3; text-align: center;}
+#seogwipo { left: 50%; top: 50%; margin-top: 20px; margin-left: 240px;}
+#seogwipo a { font-family: SwiszRegular; font-size: 26px; color: #FFFFFF; text-decoration: none;}
+#jejuCity { left: 50%; top: 50%; margin-top: -130px; margin-left: 80px;}
+#pointer img { position: absolute; width: 150px; height: 122px; top: 50%; left: 50%; margin-top: 20px; margin-left: -50px;}
+#compass { position: absolute; width: 174px; height: 174px; top: 50%; left: 50%; margin-left: 630px; margin-top: 250px;}
