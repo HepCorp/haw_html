@@ -1,1 +1,8 @@
-body { background-color: darkgreen}
+body {width: 100%; height: 100vh; background-color: #002946;}
+section { width: 100%; height: 100vh; background: url("../images/worldmap-bg.png") no-repeat center; background-size: contain;}
+section h2 { position: absolute; width: 587px; height: 241px; left: 50%; top: 50%; margin-left: -830px; margin-top: -460px;}
+.contentsWrap { position: absolute; width: 100%; height: 100%;}
+.registerWrap { width: 100%; height: 100vh;  background: url("../images/outline2.png") no-repeat center; background-size: contain;}
+.register { position: absolute; margin-top: 130px; width: 100%; height: 750px; background-color: crimson}
+.registerOutline { width: 1100px; height: 806px; background: url("../images/register-box.png") no-repeat center;  margin: 0 auto;}
+.registerOutline h3 { font-family: Consolas, Serif; font-size: 18px; color: #FFFFFF;}
