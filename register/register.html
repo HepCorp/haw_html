@@ -17,13 +17,19 @@
                     <form action="">
                         <fieldset>
                             <legend>회원가입</legend>
-                            <p>NAME <input type="text" name="name" id="name"></p>
-                            <p>ID <input type="text" name="id" id="id"></p>
-                            <p>PASSWORD1 <input type="password1" name="passWd1" id="passWd1"></p>
-                            <p>PASSWORD2 <input type="password2" name="passWd2" id="passwd2"></p>
-                            <p>E-MAIL <input type="email" name="email" id="email"></p>
-                            <span>CANCEL<input type="button" name="cancel" id="cancel"></span>
-                            <span>SUBMIT<input type="submit" name="submit" id="submit"></span>
+                            <p>NAME <input type="text" name="name" id="name" autofocus="autofocus"></p>
+                            <p>ID <input type="text" name="id" id="id" autofocus="autofocus"></p>
+                            <p>PASSWORD1 <input type="password" name="passWd1" id="passWd1" autofocus="autofocus"></p>
+                            <p>PASSWORD2 <input type="password" name="passWd2" id="passwd2" autofocus="autofocus"></p>
+                            <p>E-MAIL <input type="email" name="email" id="email" autofocus="autofocus"></p>
+                            <span class="errors">
+                                <p id="errorIcon"></p>
+                                <p id="errorMessages">사용할 수 없는 아이디입니다.</p>
+                            </span>
+                            <span class="cns">
+                                <input type="button" name="cancel" id="cancel" value="CANCEL">
+                                <input type="submit" name="submit" id="submit" value="SUBMIT">
+                            </span>
                         </fieldset>
                     </form>
                 </div>
