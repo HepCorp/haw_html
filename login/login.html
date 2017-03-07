@@ -18,14 +18,16 @@
                         <fieldset>
                             <legend>로그인</legend>
                             <p>ID <input type="text" name="id" id="id"></p>
-                            <p>PASSWORD1 <input type="password1" name="passWd1" id="passWd1"></p>
-                            <span>
-                                <a href="">REGISTER</a>
-                                <a href="">FIND ID/PASSWORD</a>
+                            <p>PASSWORD <input type="password" name="passWd1" id="passWd1"></p>
+                            <span id="find">
+                                <input type="button" name="registerBtn" id="registerBtn" value="REGISTER">
+                                <input type="button" name="findBtn" id="findBtn" value="FIND ID/PASSWORD">
                             </span>
                             <p><input type="submit" name="login" id="login" value="LOG IN"></p>
                         </fieldset>
                     </form>
+                    <p id="errorIcon"></p>
+                    <p id="errorMessages">아이디 또는 비밀번호가 일치하지 않습니다.</p>
                 </div>
             </div>
         </div>

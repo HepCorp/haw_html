@@ -111,7 +111,7 @@ section h2 img {
 }
 .registerOutline form fieldset .cns {
     display: block;
-    width: 400px;
+    width: 350px;
     height: 50px;
     line-height: 50px;
     margin: 20px auto 0;
@@ -126,7 +126,7 @@ section h2 img {
     outline: none;
     color: #FFFFFF;
     font-family: Consolas, Arial;
-    font-size: 22px;
+    font-size: 20px;
     float: left;
 }
 .registerOutline form .cns input[type=submit] {
@@ -136,7 +136,7 @@ section h2 img {
     outline: none;
     color: #FFFFFF;
     font-family: Consolas, Arial;
-    font-size: 22px;
+    font-size: 20px;
     float: right;
 }
 .registerOutline form .cns input[type=button]:hover {
@@ -145,7 +145,7 @@ section h2 img {
 .registerOutline form .cns input[type=submit]:hover {
     text-shadow: 0 0 5px #00FFFF;
 }
-.errors #errorIcon {
+#errorIcon {
     width: 20px;
     height: 20px;
     background: url("../images/warning-mark.png") no-repeat center;
@@ -154,13 +154,13 @@ section h2 img {
     margin-top: -300px;
     display: none;
 }
-.errors #errorMessages {
+#errorMessages {
     width: 400px;
     height: 30px;
     color: #FF0000;
     font-family: "Noto Sans CJK KR Regular", "맑은 고딕";
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
-    margin: 0 auto;
+    margin: -50px auto 0;
     display: none;
 }
