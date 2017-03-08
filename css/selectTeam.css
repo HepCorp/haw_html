@@ -46,7 +46,7 @@ section h2 img {
     height: 455px;
     background: url("../images/team-box.png") no-repeat center;
     background-size: contain;
-    margin: 55px auto 0;
+    top: -40px;
 }
 .selectTeamWrap {
     width: 1000px;
@@ -99,17 +99,25 @@ section h2 img {
     font-size: 20px;
     text-shadow: 0 0 8px #FFFFFF;
 }
+.teamListWrap {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+}
 .teamList {
+    position: absolute;
     width: 500px;
-    height: 123px;
-    margin: 55px auto 0;
+    height: 76px;
+    margin: 100px 0 0 55px;
 }
 #prev {
+    display: block;
     width: 30px;
-    height: 100px;
-    line-height: 145px;
+    height: 76px;
+    line-height: 76px;
     float: left;
     text-align: left;
+    box-shadow: 0 0 10px #002946;
 }
 #prev a {
     width: 15px;
@@ -122,11 +130,11 @@ section h2 img {
     width: 440px;
     height: 76px;
     float: left;
+    overflow: hidden;
 }
 .symbols ul {
-    width: 440px;
+    width: 500px;
     height: 76px;
-    overflow: hidden;
 }
 .symbols ul li {
     width: 70px;
@@ -141,10 +149,11 @@ section h2 img {
 }
 #next {
     width: 30px;
-    height: 100px;
-    line-height: 145px;
+    height: 76px;
+    line-height: 76px;
     float: right;
     text-align: right;
+    box-shadow: 0 0 10px #002946;
 }
 #next a {
     width: 15px;
