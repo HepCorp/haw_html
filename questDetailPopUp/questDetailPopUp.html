@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Hacktorial World</title>
+</head>
+<body>
+<div class="questDetailPopUp">
+    <h2>SEOGWIPO CITY</h2>
+    <div class="questDetailBox"><!-- 레이아웃 이미지 이 태그에 넣기 -->
+        <div class="questContent">
+            <p>From. Sam</p>
+            <span>제주도 서귀포시 위쪽에 있는 시의 영문 이름을 알려주세요.</span>
+        </div>
+        <form action="">
+            <fieldset>
+                <legend>퀘스트 답변 적기와 어쓰</legend>
+                <span class="questAnswer">
+                    <label for="answer"></label>
+                    <p><input type="text" id="answer" name="answer"></p>
+                    <label for="send"></label>
+                    <p><input type="submit" id="send" name="send"></p>
+                </span>
+                <span class="authButton">
+                    <label for="auth">AUTH</label>
+                    <p><input type="button" id="auth" name="auth"></p>
+                </span>
+            </fieldset>
+        </form>
+    </div>
+    <div class="connectLine"></div>
+    <div class="questProgressBar">
+        <div class="radialProgress">
+            <ul class="progress">
+                <li class="progressCircle">
+                    <div class="ProgressBar ProgressBar--animateAll" data-progress="59">
+                        <p>Completed</p>
+                        <svg class="ProgressBar-contentCircle">
+                            <!-- on défini le l'angle et le centre de rotation du cercle -->
+                            <circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" ></circle>
+                            <circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" cx="100" cy="100" r="95" ></circle>
+                            <span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+                        </svg>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="/haw_html/css/selectJeju.css">
+    <link type="text/css" rel="stylesheet" href="/haw_html/css/tutorial_4-3.css">
+    <link type="text/css" rel="stylesheet" href="/haw_html/css/common.css">
+    <title>Hacktorial World</title>
+</head>
+<body>
+<section>
+    <h2><img src="/haw_html/images/title.png" alt="핵토리얼 월드"></h2>
+    <div class="contentsWrap">
+        <div class="mainWrap">
+            <div class="jejuMap">
+                <div class="location">
+                    <p id="seogwipo"><a href="">SEOGWIPO CITY</a></p>
+                    <p id="jejuCity">JEJU CITY</p>
+                </div>
+                <span id="compass"><img src="/haw_html/images/compass2.png" alt="나침반 이미지"></span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tutorialWrap">
+    <div class="tutorialStartWrap">
+        <div class="tutorials">
+            <div class="questPopUp">
+                <h2>SEOGWIPO CITY</h2>
+                <div class="questBox">
+                    <div class="questWrap">
+                        <dl>
+                            <dt><img src="/haw_html/images/quest1-icon.png" alt="퀘스트1 아이콘"></dt>
+                            <dd>QUEST1</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="/haw_html/images/quest2-icon.png" alt="퀘스트2 아이콘"></dt>
+                            <dd>QUEST2</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="/haw_html/images/quest3-icon.png" alt="퀘스트3 아이콘"></dt>
+                            <dd>QUEST3</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="questDetailPopUp">
+                <h2>SEOGWIPO CITY</h2>
+                 <div class="questDetailBox"><!-- 레이아웃 이미지 이 태그에 넣기 -->
+                     <div class="questContent">
+                         <p>From. Sam</p>
+                         <span>제주도 서귀포시 위쪽에 있는 시의 영문 이름을 알려주세요.</span>
+                     </div>
+                     <div class="questAnswer">
+                         <form action="">
+                             <fieldset>
+                                 <legend>퀘스트 답변 적기</legend>
+                                 <label for="answer"></label>
+                                 <span><input type="text" id="answer" name="answer"></span>
+                                 <label for="send"></label>
+                                 <span><input type="submit" id="send" name="send"></span>
+                             </fieldset>
+                         </form>
+                     </div>
+                 </div>
+                <div class="connectLine"></div>
+                <div class="questProgressBar">
+                    <div class="radialProgress">
+                        <ul class="progress">
+                            <li class="progressCircle">
+                                <div class="ProgressBar ProgressBar--animateAll" data-progress="59">
+                                    <p>Completed</p>
+                                    <svg class="ProgressBar-contentCircle">
+                                        <!-- on défini le l'angle et le centre de rotation du cercle -->
+                                        <circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" ></circle>
+                                        <circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" cx="100" cy="100" r="95" ></circle>
+                                        <span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+                                    </svg>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tutorialChat">
+                <div class="chat">
+                    <h3>■ CHAT</h3>
+                </div>
+                <div class="system">
+                    <span class="chatName">
+                        <h4>SYSTEM ▶</h4>
+                    </span>
+                    <span class="chatting">
+                        <p>Quest1의 아이콘은 '문답' 혹은 '미니게임' 형태의 문제를 뜻합니다.</p>
+                        <br>
+                        <p>문제를 읽고 답을 답란에 입력해 주시고, 우측 보내기 버튼을 눌러주세요!</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
