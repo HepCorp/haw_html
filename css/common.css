@@ -35,7 +35,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    font-family: "Noto Sans CJK KR Regular", "맑은 고딕";
+    font-family: SwiszRegular, "Noto Sans CJK KR Regular", "맑은 고딕";
 }
 input { outline: none;}
 legend { display: none;}
