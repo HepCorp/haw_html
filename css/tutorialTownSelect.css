@@ -1,0 +1,66 @@
+body {
+    overflow: hidden;
+}
+.tutorialWrap {
+    /* position: relative; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: -678px;
+    overflow: hidden;
+}
+.tutorialTownWrap {
+    position: absolute;
+    width: 100%;
+    height: 628px;
+    margin: 50px auto;
+}
+.tutorials {
+    width: 1200px;
+    height: 628px;
+    background-size: contain;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.activeLocation {
+    width: 1200px;
+    height: 628px;
+    position: relative;
+}
+#sgpMap {
+    display: block;
+    width: 690px;
+    height: 287px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -353px;
+    margin-top: -117px;
+}
+#sgpMap img {
+    height: 287px;
+}
+#sgpPointer {
+    display: block;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -27px;
+    margin-top: 10px;
+}
+#sgpPointer img {
+    width: 100px;
+}
+#seogwipo {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: 77px;
+    margin-top: 12px;
+}

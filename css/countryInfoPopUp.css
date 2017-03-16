@@ -34,10 +34,36 @@ body {
     font-family: SwiszRegular;
     color: #00ffff;
     margin-bottom: 20px;
+    text-shadow: 0 0 10px #00FFFF;
 }
-.activeDescription span ul {
+.activeInfo {
+    display: block;
+    height: 100px;
+}
+.activeInfo ul {
     padding-left: 20px;
 }
-.activeDescription span ul li {
+.activeInfo ul li {
     list-style-type: initial;
+    line-height: 22px;
+    font-family: consolas;
+    font-size: 14px;
+}
+#joinBtn span {
+    display: block;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+}
+#joinBtn input[type=submit] {
+    border: 3px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    font-size: 20px;
+    font-family: SwiszRegular;
+    box-shadow: 0 0 15px #00FFFF, inset 0 0 15px #00FFFF;
+    text-shadow: 0 0 15px #00FFFF;
 }

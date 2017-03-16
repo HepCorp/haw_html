@@ -1,0 +1,79 @@
+body {
+    overflow: hidden;
+}
+.tutorialWrap {
+    /* position: relative; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: -678px;
+    overflow: hidden;
+}
+.tutorialCityWrap {
+    position: absolute;
+    width: 100%;
+    height: 628px;
+    margin: 50px auto;
+}
+.tutorials {
+    width: 1200px;
+    height: 628px;
+    background-size: contain;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.activeLocation {
+    width: 1200px;
+    height: 628px;
+    position: relative;
+}
+#koreaMap {
+    display: block;
+    height: 83px;
+    width: 146px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -64px;
+    margin-top: -39px;
+}
+#koreaMap img {
+    height: 250px;
+}
+#jejuMap {
+    display: block;
+    width: 101px;
+    height: 91px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -62px;
+    margin-top: 233px;
+}
+#jejuMap img {
+    height: 20px;
+}
+#jejuPointer {
+    display: block;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -83px;
+    margin-top: 204px;
+}
+#jejuPointer img {
+    width: 100px;
+}
+#jeju {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 204px;
+}
