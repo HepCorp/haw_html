@@ -153,7 +153,7 @@ section h2 img {
 .termsContents {
     display: block;
     width: 373px;
-    height: 70px;
+    height: 55px;
     line-height: 14px;
     border: 1px solid #00FFFF;
     box-sizing: border-box;
@@ -162,7 +162,7 @@ section h2 img {
     overflow-y: scroll;
     margin-top: 10px;
     font-family: "Noto Sans CJK KR Light";
-    font-size: 12px;
+    font-size: 10px;
     color: #FFFFFF;
 }
 .agreeCheckBox {
@@ -375,13 +375,13 @@ section h2 img {
 }
 .selectTeamWrap {
     width: 1000px;
-    height: 628px;
+    height: 455px;
     margin: 0 auto;
 }
 .selected {
     width: 500px;
-    height: 200px;
-    margin: 95px auto 0;
+    height: 300px;
+    margin: 100px auto 0;
 }
 .selectedTeamSym {
     width: 180px;
@@ -400,6 +400,12 @@ section h2 img {
     margin-right: 50px;
     margin-top: 80px;
     float: right;
+}
+.selectedTeamInfo form fieldset {
+    border: none;
+}
+.selectedTeamInfo form legend {
+    display: none;
 }
 .selectedTeamInfo p {
     font-family: Consolas;
@@ -433,13 +439,13 @@ section h2 img {
     position: absolute;
     width: 500px;
     height: 76px;
-    margin: 100px 0 0 55px;
+    margin: 0px 0 0 50px;
 }
 #prev {
     display: block;
     width: 30px;
     height: 76px;
-    line-height: 76px;
+    line-height: 100px;
     float: left;
     text-align: left;
     box-shadow: 0 0 10px #002946;
@@ -449,22 +455,22 @@ section h2 img {
 }
 #prev a img {
     width: 15px;
-
 }
 .symbols {
     width: 440px;
-    height: 76px;
+    height: 90px;
     float: left;
     overflow: hidden;
 }
 .symbols ul {
     width: 500px;
-    height: 76px;
+    height: 90px;
 }
 .symbols ul li {
     width: 70px;
     float: left;
     margin-right: 30px;
+    list-style: none;
 }
 .symbols ul li:last-child {
     margin-right: 0;
@@ -475,7 +481,7 @@ section h2 img {
 #next {
     width: 30px;
     height: 76px;
-    line-height: 76px;
+    line-height: 100px;
     float: right;
     text-align: right;
     box-shadow: 0 0 10px #002946;
