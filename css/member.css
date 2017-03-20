@@ -215,7 +215,6 @@ section h2 img {
 .registerBox form .cns input[type=submit]:hover {
     text-shadow: 0 0 5px #00FFFF;
 }
-
 /* //register.css */
 
 /* login.css */
@@ -247,7 +246,22 @@ section h2 img {
     margin-top: 15px;
     margin-bottom: 20px;
 }
-.loginOutline form p {
+.loginBox {
+    height: 280px;
+    width: 545px;
+    margin: 30px auto 0;
+}
+.loginErrors {
+    width: 30px;
+    float: left;
+    margin-top: 20px;
+    display: none;
+}
+.loginErrors span {
+    margin: 15px 0 17px 50px;
+    display: block;
+}
+.loginBox form p {
     padding-left: 30px;
     width: 370px;
     height: 40px;
@@ -259,51 +273,48 @@ section h2 img {
     background: url("../images/input-box.png") no-repeat center;
     background-size: contain;
 }
-.loginOutline form p:nth-child(2) {
-    margin-top: 55px;
+.loginBox form label {
+    font-family: Consolas;
 }
-.loginOutline form p:nth-child(4) {
+.loginBox form p:nth-child(7) {
     background-image: none;
 }
-.loginOutline form p:nth-child(5) {
-    background-image: none;
-}
-.login
-.loginOutline form input[type=text] {
-    margin-left: 50px;
+.loginBox form input[type=email] {
+    margin-right: 50px;
     background-color: transparent;
     border: none;
     width: 200px;
     height: 40px;
     line-height: 40px;
     color: #00FFFF;
+    float: right;
 }
-.loginOutline form input[type=text]:focus {
+.loginBox form input[type=email]:focus {
     color: #00FFFF;
 }
-.loginOutline form input[type=password] {
-    margin-left: 30px;
+.loginBox form input[type=password] {
+    margin-right: 50px;
     background-color: transparent;
     border: none;
-    width: 250px;
+    width: 200px;
     height: 40px;
     line-height: 40px;
     color: #00FFFF;
     float: right;
 }
-.loginOutline form input[type=password]:focus {
+.loginBox form input[type=password]:focus {
     color: #00FFFF;
 }
-.loginOutline form span#find {
+.loginBox form span#find {
     display: block;
     width: 370px;
     height: 30px;
     color: #FF0000;
     font-size: 8px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto 0;
 }
-.loginOutline form input#registerBtn {
+.loginBox form input#registerBtn {
     border: none;
     background: transparent;
     color: white;
@@ -313,7 +324,7 @@ section h2 img {
     float: left;
     cursor: pointer
 }
-.loginOutline form input#findBtn {
+.loginBox form input#findBtn {
     border: none;
     background: transparent;
     color: white;
@@ -323,7 +334,7 @@ section h2 img {
     float: right;
     cursor: pointer;
 }
-.loginOutline form input[type=submit] {
+.loginBox form input[type=submit] {
     width: 70px;
     height: 70px;
     border-radius: 70px;
@@ -333,11 +344,11 @@ section h2 img {
     outline: none;
     color: #FFFFFF;
     font-family: Consolas, Arial;
-    font-size: 14px;
+    font-size: 16px;
     box-shadow: inset 0px 0px 3px 1px #FFFFFF,0px 0px 3px 1px #FFFFFF;
     margin-left: 135px;
 }
-.loginOutline form input[type=submit]:hover {
+.loginBox form input[type=submit]:hover {
     text-shadow: 0 0 5px #FFFFFF;
 }
 /* //login.css */
