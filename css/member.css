@@ -1,0 +1,478 @@
+/* member common */
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #002946;
+    overflow: hidden;
+}
+section {
+    position: relative;
+    width: 1200px;
+    height: 628px;
+    margin: 0 auto;
+}
+section h2 {
+    position: absolute;
+    width: 300px;
+    height: 125px;
+    left: 50%;
+    top: 50%;
+    margin-left: -535px;
+    margin-top: -296px;
+}
+section h2 img {
+    width: 300px;
+    height: 125px;
+}
+.contentsWrap {
+    width: 1200px;
+    height: 628px;
+    margin: 50px auto 0;
+    background: url("../images/worldmap-bg.png") no-repeat center;
+    background-size: contain;
+}
+/* //member common */
+
+/* register.css */
+.registerWrap {
+    width: 1200px;
+    height: 628px;
+    background: url("../images/outline2.png") no-repeat center;
+    background-size: contain;
+}
+.register {
+    position: absolute;
+    width: 1200px;
+    height: 628px;
+}
+.registerOutline {
+    position: relative;
+    width: 634px;
+    height: 414px;
+    background: url("../images/register-box.png") no-repeat center;
+    background-size: contain;
+    margin: 80px auto 0;
+    padding-top: 50px;
+}
+.registerOutline h3 {
+    font-family: Consolas;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.registerBox {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 300px;
+    width: 564px;
+    margin: 0 auto;
+}
+.reErrors {
+    width: 30px;
+    float: left;
+    margin-top: 20px;
+    display: none;
+}
+.reErrors span {
+    margin: 15px 0 17px 50px;
+    display: block;
+}
+#errorMessages {
+    width: 400px;
+    height: 30px;
+    background-image: none;
+    color: #FF0000;
+    font-family: "Noto Sans CJK KR Regular", "맑은 고딕";
+    font-size: 12px;
+    text-align: center;
+    margin: -10px auto 0;
+    display: none;
+}
+.registerBox form fieldset p {
+    padding-left: 30px;
+    width: 370px;
+    height: 40px;
+    line-height: 40px;
+    color: #00FFFF;
+    font-size: 14px;
+    font-family: Consolas, Arial;
+    margin: 10px auto 0;
+    background: url("../images/input-box.png") no-repeat center;
+    background-size: contain;
+}
+.registerBox form label {
+    font-family: Consolas;
+}
+.registerBox form input[type=text] {
+    margin-right: 50px;
+    background-color: transparent;
+    border: none;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #00FFFF;
+    float: right;
+}
+.registerBox form input[type=text]:focus {
+    color: #00FFFF;
+}
+.registerBox form input[type=password] {
+    margin-right: 50px;
+    background-color: transparent;
+    border: none;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #00FFFF;
+    float: right;
+}
+.registerBox form input[type=password]:focus {
+    color: #00FFFF;
+}
+.registerBox form input[type=email] {
+    margin-right: 50px;
+    background-color: transparent;
+    border: none;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #00FFFF;
+    float: right;
+}
+.registerBox form input[type=email]:focus {
+    color: #00FFFF;
+}
+#personalDataTerms, #serviceTerms {
+    width: 373px;
+    height: 70px;
+    background-image: none;
+    padding-left: 0;
+}
+.termsContents {
+    display: block;
+    width: 373px;
+    height: 70px;
+    line-height: 14px;
+    border: 1px solid #00FFFF;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 10px;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.agreeCheckBox {
+    width: 373px;
+    height: 50px;
+    display: block;
+    float: right;
+    text-align: right;
+}
+.agreeCheckBox label {
+    color: #FFFFFF;
+    font-family: "Noto Sans CJK KR Regular";
+}
+.agreeCheckBox input {
+
+}
+.registerBox form fieldset .cns {
+    display: block;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px auto 0;
+    color: #FFFFFF;
+    font-family: Consolas, Arial;
+    font-size: 18px;
+}
+.registerBox form .cns input[type=button] {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: Consolas, Arial;
+    font-size: 20px;
+    float: left;
+}
+.registerBox form .cns input[type=submit] {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: Consolas, Arial;
+    font-size: 20px;
+    float: right;
+}
+.registerBox form .cns input[type=button]:hover {
+    text-shadow: 0 0 5px #00FFFF;
+}
+.registerBox form .cns input[type=submit]:hover {
+    text-shadow: 0 0 5px #00FFFF;
+}
+
+/* //register.css */
+
+/* login.css */
+.loginWrap {
+    width: 1200px;
+    height: 628px;
+    background: url("../images/outline2.png") no-repeat center;
+    background-size: contain;
+}
+.login {
+    position: absolute;
+    width: 1200px;
+    height: 628px;
+}
+.loginOutline {
+    position: relative;
+    width: 634px;
+    height: 414px;
+    background: url("../images/login-box.png") no-repeat center;
+    background-size: contain;
+    margin: 55px auto 0;
+    padding-top: 95px;
+}
+.loginOutline h3 {
+    font-family: Consolas;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.loginOutline form p {
+    padding-left: 30px;
+    width: 370px;
+    height: 40px;
+    line-height: 40px;
+    color: #00FFFF;
+    font-size: 14px;
+    font-family: Consolas, Arial;
+    margin: 10px auto 0;
+    background: url("../images/input-box.png") no-repeat center;
+    background-size: contain;
+}
+.loginOutline form p:nth-child(2) {
+    margin-top: 55px;
+}
+.loginOutline form p:nth-child(4) {
+    background-image: none;
+}
+.loginOutline form p:nth-child(5) {
+    background-image: none;
+}
+.login
+.loginOutline form input[type=text] {
+    margin-left: 50px;
+    background-color: transparent;
+    border: none;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #00FFFF;
+}
+.loginOutline form input[type=text]:focus {
+    color: #00FFFF;
+}
+.loginOutline form input[type=password] {
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    color: #00FFFF;
+    float: right;
+}
+.loginOutline form input[type=password]:focus {
+    color: #00FFFF;
+}
+.loginOutline form span#find {
+    display: block;
+    width: 370px;
+    height: 30px;
+    color: #FF0000;
+    font-size: 8px;
+    text-align: center;
+    margin: 0 auto;
+}
+.loginOutline form input#registerBtn {
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: consolas;
+    font-size: 12px;
+    padding: initial;
+    float: left;
+    cursor: pointer
+}
+.loginOutline form input#findBtn {
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: consolas;
+    font-size: 12px;
+    padding: initial;
+    float: right;
+    cursor: pointer;
+}
+.loginOutline form input[type=submit] {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+    outline: none;
+    color: #FFFFFF;
+    font-family: Consolas, Arial;
+    font-size: 14px;
+    box-shadow: inset 0px 0px 3px 1px #FFFFFF,0px 0px 3px 1px #FFFFFF;
+    margin-left: 135px;
+}
+.loginOutline form input[type=submit]:hover {
+    text-shadow: 0 0 5px #FFFFFF;
+}
+/* //login.css */
+
+/* selectTeam.css */
+.teamWrap {
+    width: 1200px;
+    height: 628px;
+    background: url("../images/outline.png") no-repeat center;
+    background-size: contain;
+}
+.team {
+    position: absolute;
+    margin-top: 30px;
+    width: 1200px;
+    height: 628px;
+}
+.teamOutline {
+    position: relative;
+    height: 455px;
+    background: url("../images/team-box.png") no-repeat center;
+    background-size: contain;
+    top: -40px;
+}
+.selectTeamWrap {
+    width: 1000px;
+    height: 628px;
+    margin: 0 auto;
+}
+.selected {
+    width: 500px;
+    height: 200px;
+    margin: 95px auto 0;
+}
+.selectedTeamSym {
+    width: 180px;
+    height: 180px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.selectedTeamSym img {
+    width: 180px;
+    height: 180px;
+}
+.selectedTeamInfo {
+    width: 140px;
+    height: 208px;
+    margin-right: 50px;
+    margin-top: 80px;
+    float: right;
+}
+.selectedTeamInfo p {
+    font-family: Consolas;
+    font-size: 18px;
+    color: #00FFFF;
+}
+.selectedTeamInfo p:first-child {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.selectedTeamInfo p:nth-child(2) {
+    margin-bottom: 35px;
+}
+.selectedTeamInfo form input[type=submit] {
+    width: 130px;
+    height: 35px;
+    background: none;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px; box-shadow: 0 0 10px #FFFFFF, inset 0 0 10px #FFFFFF;
+    color: #FFFFFF;
+    font-family: SwiszRegular;
+    font-size: 20px;
+    text-shadow: 0 0 8px #FFFFFF;
+}
+.teamListWrap {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+}
+.teamList {
+    position: absolute;
+    width: 500px;
+    height: 76px;
+    margin: 100px 0 0 55px;
+}
+#prev {
+    display: block;
+    width: 30px;
+    height: 76px;
+    line-height: 76px;
+    float: left;
+    text-align: left;
+    box-shadow: 0 0 10px #002946;
+}
+#prev a {
+    width: 15px;
+}
+#prev a img {
+    width: 15px;
+
+}
+.symbols {
+    width: 440px;
+    height: 76px;
+    float: left;
+    overflow: hidden;
+}
+.symbols ul {
+    width: 500px;
+    height: 76px;
+}
+.symbols ul li {
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+}
+.symbols ul li:last-child {
+    margin-right: 0;
+}
+.symbols ul li img {
+    width: 70px;
+}
+#next {
+    width: 30px;
+    height: 76px;
+    line-height: 76px;
+    float: right;
+    text-align: right;
+    box-shadow: 0 0 10px #002946;
+}
+#next a {
+    width: 15px;
+}
+#next a img {
+    width: 15px
+}
+/* //selectTeam.css */
