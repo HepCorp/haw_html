@@ -1,3 +1,4 @@
+@import "common.css";
 /* member common */
 body {
     width: 100%;
@@ -458,22 +459,19 @@ section h2 img {
 }
 .symbols {
     width: 440px;
-    height: 90px;
+    height: 75px;
     float: left;
     overflow: hidden;
 }
 .symbols ul {
     width: 500px;
-    height: 90px;
+    height: 75px;
 }
 .symbols ul li {
     width: 70px;
     float: left;
     margin-right: 30px;
     list-style: none;
-}
-.symbols ul li:last-child {
-    margin-right: 0;
 }
 .symbols ul li img {
     width: 70px;
