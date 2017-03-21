@@ -74,11 +74,13 @@ section h2 img {
     width: 30px;
     float: left;
     margin-top: 20px;
-    display: none;
 }
 .reErrors span {
     margin: 15px 0 17px 50px;
     display: block;
+}
+#nameError, #emailError, #passError1, #passError2, #nickError {
+    visibility: hidden;
 }
 #errorMessages {
     width: 400px;
@@ -89,7 +91,7 @@ section h2 img {
     font-size: 12px;
     text-align: center;
     margin: -10px auto 0;
-    display: none;
+    visibility: hidden;
 }
 .registerBox form fieldset p {
     padding-left: 30px;
@@ -256,7 +258,6 @@ section h2 img {
     width: 30px;
     float: left;
     margin-top: 20px;
-    display: none;
 }
 .loginErrors span {
     margin: 15px 0 17px 50px;
@@ -491,3 +492,68 @@ section h2 img {
     width: 15px
 }
 /* //selectTeam */
+
+.teamWrap {
+    width: 1200px;
+    height: 628px;
+    background: url("../images/outline.png") no-repeat center;
+    background-size: contain;
+}
+.tutorialWrap {
+    /* position: relative; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: -678px;
+    overflow: hidden;
+}
+.team {
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+    height: 628px;
+}
+.teamOutline {
+    position: relative;
+    height: 455px;
+    background: url("../images/team-box.png") no-repeat center;
+    background-size: contain;
+    top: 10px;
+}
+.selectTeamWrap {
+    width: 1000px;
+    height: 455px;
+    margin: 0 auto;
+}
+.selected {
+    width: 500px;
+    height: 300px;
+    margin: 95px auto 0;
+    font-family: SwiszRegular;
+}
+.selectedTeamSym {
+    width: 180px;
+    height: 180px;
+    float: left;
+    margin-left: 165px;
+    margin-top: 125px;
+}
+.selectedTeamSym img {
+    width: 180px;
+    height: 180px;
+}
+.selectedTeamInfo {
+    width: 300px;
+    height: 50px;
+    margin-right: 90px;
+    margin-top: 30px;
+    float: right;
+    text-align: center;
+    font-family: SwiszRegular;
+}
+.selectedTeamInfo h3 {
+    color: #FFFFFF;
+    text-shadow: 0 0 15px #00ffff;
+    font-size: 22px;
+}
