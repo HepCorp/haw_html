@@ -34,7 +34,7 @@ section h2 img {
 }
 /* //member common */
 
-/* register.css */
+/* register */
 .registerWrap {
     width: 1200px;
     height: 628px;
@@ -216,9 +216,9 @@ section h2 img {
 .registerBox form .cns input[type=submit]:hover {
     text-shadow: 0 0 5px #00FFFF;
 }
-/* //register.css */
+/* //register */
 
-/* login.css */
+/* login */
 .loginWrap {
     width: 1200px;
     height: 628px;
@@ -352,9 +352,9 @@ section h2 img {
 .loginBox form input[type=submit]:hover {
     text-shadow: 0 0 5px #FFFFFF;
 }
-/* //login.css */
+/* //login */
 
-/* selectTeam.css */
+/* selectTeam */
 .teamWrap {
     width: 1200px;
     height: 628px;
@@ -490,4 +490,4 @@ section h2 img {
 #next a img {
     width: 15px
 }
-/* //selectTeam.css */
+/* //selectTeam */
