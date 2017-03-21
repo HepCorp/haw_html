@@ -74,11 +74,13 @@ section h2 img {
     width: 30px;
     float: left;
     margin-top: 20px;
-    display: none;
 }
 .reErrors span {
     margin: 15px 0 17px 50px;
     display: block;
+}
+#nameError, #emailError, #passError1, #passError2, #nickError {
+    visibility: hidden;
 }
 #errorMessages {
     width: 400px;
@@ -89,7 +91,7 @@ section h2 img {
     font-size: 12px;
     text-align: center;
     margin: -10px auto 0;
-    display: none;
+    visibility: hidden;
 }
 .registerBox form fieldset p {
     padding-left: 30px;
@@ -256,7 +258,6 @@ section h2 img {
     width: 30px;
     float: left;
     margin-top: 20px;
-    display: none;
 }
 .loginErrors span {
     margin: 15px 0 17px 50px;
