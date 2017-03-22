@@ -648,5 +648,105 @@ body {
 /* //questInfoPopUp */
 
 /* questDetailPopUp */
-
+.detailWrap {
+    /* position: relative;*/
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: -678px;
+    overflow: hidden;
+}
+.questDetailPopUp {
+    width: 1200px;
+    height: 300px;
+    margin: 220px auto 0;
+}
+.questDetailBox {
+    width: 700px;
+    height: 350px;
+    margin: 0 auto;
+    background: url("../images/qna-popup.png") no-repeat center;
+    background-size: contain;
+}
+.questNum {
+    width: 700px;
+    height: 35px;
+}
+.questNum h3 {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    color: #000000;
+    font-family: SwiszRegular;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+.questContent {
+    width: 620px;
+    height: 230px;
+    margin: 10px auto;
+    border-bottom: 1px solid #00FFFF;
+    box-sizing: border-box;
+}
+.questContent p {
+    font-family: consolas;
+    color: #FFFFFF;
+    width: 400px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.questContent span {
+    width: 500px;
+    height: 190px;
+    display: block;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: "Noto Sans CJK KR Regular", "맑은 고딕";
+}
+.questDetailBox form fieldset {
+    width: 600px;
+    height: 45px;
+    margin: 0 auto;
+}
+.questAnswer {
+    display: block;
+    width: 600px;
+    height: 45px;
+}
+#answer {
+    width: 520px;
+    height: 30px;
+    margin-top: 4px;
+    background-color: transparent;
+    border: 2px solid #00FFFF;
+    float: left;
+}
+.questAnswer p:nth-child(2) {
+    width: 45px;
+    line-height: 45px;
+    height: 45px;
+    border: 2px solid #00FFFF;
+    border-radius: 45px;
+    float: right;
+    text-align: center;
+    box-shadow: 0 0 8px #00FFFF, inset 0 0 8px #00FFFF;
+}
+#send {
+    width: 30px;
+    height: 30px;
+    background: url(../images/send-button.png) no-repeat center;
+    background-size: contain;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+}
+.authButton {
+    display: block;
+    width: 680px;
+    height: 30px;
+    background-color: darkgreen;
+}
 /* //questDetailPopUp */
