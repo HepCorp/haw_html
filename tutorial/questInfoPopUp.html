@@ -2,18 +2,16 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="/haw_html/css/questInfoPopUp.css">
-    <link type="text/css" rel="stylesheet" href="/haw_html/css/common.css">
+    <link type="text/css" rel="stylesheet" href="/haw_html/css/tutorial.css">
     <title>Hacktorial World</title>
 </head>
 <body>
-<section class="tutorialWrap">
+<section>
     <div class="questInfoPopUpWrap">
-        <div class="tutorials">
-            <div class="InfoPopUp">
-                <div class="popUpFocus">
-                    <img src="/haw_html/images/quest-focus.png" alt=" 선택 퀘스트 포커싱">
-                </div>
+        <div class="questInfoBox">
+            <div class="infoPopUp">
+                <span id="focusInfo"><img src="/haw_html/images/quest-focus.png" alt=" 선택 퀘스트 포커싱"></span>
+                <span id="connectInfo"><img src="/haw_html/images/quest-connect-line.png" alt="퀘스트 정보 연결 선"></span>
                 <div class="questInfo">
                     <ul>
                         <li>Beginner</li>
@@ -24,8 +22,7 @@
                     <form action="">
                         <fieldset>
                             <legend>미션 수락</legend>
-                            <label for="missionAccept">ACCEPT</label>
-                            <input type="submit" id="missionAccept" name="missionAccept">
+                            <input type="submit" id="missionAccept" name="missionAccept" value="ACCEPT">
                         </fieldset>
                     </form>
                 </div>
