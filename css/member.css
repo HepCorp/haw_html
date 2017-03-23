@@ -383,7 +383,7 @@ section h2 img {
 .selected {
     width: 500px;
     height: 300px;
-    margin: 100px auto 0;
+    margin: 95px auto 0;
 }
 .selectedTeamSym {
     width: 180px;
@@ -508,42 +508,42 @@ section h2 img {
     top: -678px;
     overflow: hidden;
 }
-.team {
+.tutoTeam {
     position: absolute;
     margin-top: 30px;
     width: 100%;
     height: 628px;
 }
-.teamOutline {
+.tutoTeamOutline {
     position: relative;
     height: 455px;
     background: url("../images/team-box.png") no-repeat center;
     background-size: contain;
     top: 10px;
 }
-.selectTeamWrap {
+.tutoSelectTeamWrap {
     width: 1000px;
     height: 455px;
     margin: 0 auto;
 }
-.selected {
+.tutoSelected {
     width: 500px;
     height: 300px;
     margin: 95px auto 0;
     font-family: SwiszRegular;
 }
-.selectedTeamSym {
+.tutoSelectedTeamSym {
     width: 180px;
     height: 180px;
     float: left;
     margin-left: 165px;
     margin-top: 125px;
 }
-.selectedTeamSym img {
+.tutoSelectedTeamSym img {
     width: 180px;
     height: 180px;
 }
-.selectedTeamInfo {
+.tutoSelectedTeamInfo {
     width: 300px;
     height: 50px;
     margin-right: 90px;
@@ -552,7 +552,7 @@ section h2 img {
     text-align: center;
     font-family: SwiszRegular;
 }
-.selectedTeamInfo h3 {
+.tutoSelectedTeamInfo h3 {
     color: #FFFFFF;
     text-shadow: 0 0 15px #00ffff;
     font-size: 22px;
