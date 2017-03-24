@@ -2,10 +2,12 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/haw_html/css/tutorial.css">
-    <link rel="stylesheet" href="/haw_html/css/tutorial.scss">
+    <link type="text/css" rel="stylesheet" href="/haw_html/css/tutorial.css">
+    <link type="text/css" rel="stylesheet" href="/haw_html/css/tutorial.scss">
+    <!--<link type="text/css" rel="stylesheet" href="/haw_html/css/member.css">-->
     <script type="text/javascript" rel="/haw_html/jquery-3.1.1/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" rel="/haw_html/js/tutorial.js"></script>
+    <link rel="import" href="/haw_html/tutorial/chatPopUp.html">
     <title>Hacktorial World</title>
 </head>
 <body>
@@ -51,6 +53,21 @@
                 </ul>
             </div>
         </div>
+    </div>
+    <div class="authPopUp">
+        <h2>SEOGWIPO CITY</h2>
+        <div class="authBox"><!-- 레이아웃 이미지 이 태그에 넣기 -->
+            <div class="auth">
+                <form action="">
+                    <fieldset>
+                        <legend>어쓰 체크</legend>
+                        <input type="text" id="authInsert" name="authInsert">
+                        <input type="submit" id="checkButton" name="auth">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="connectLine"></div>
     </div>
 </section>
 </body>

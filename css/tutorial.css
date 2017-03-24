@@ -1,4 +1,4 @@
-
+@import "common.css";
 /* tutorial common */
 body {
     overflow: hidden;
@@ -9,7 +9,14 @@ body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     left: 0;
-    top: -678px;
+    /*top: -678px;*/
+    overflow: hidden;
+}
+.tutorialWrap02 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0px;
     overflow: hidden;
 }
 /* //tutorial common */
@@ -156,18 +163,18 @@ body {
 .selectPopUp {
     width: 1000px;
     height: 100px;
+    line-height: 100px;
+    text-align: center;
     background-color: #000000;
     border: 3px solid #FFFFFF;
     border-radius: 10px;
     margin: 50px auto;
-    padding-left: 100px;
-    padding-top: 30px;
     box-sizing: border-box;
     box-shadow: 0 0 15px #00FFFF;
 }
 .selectPopUp span {
     font-size: 30px;
-    font-family: "Noto Sans CJK KR Regular", "맑은 고딕";
+    font-family: Consolas, "Noto Sans CJK KR Regular";
 }
 .selectBox form span {
     display: block;
@@ -649,11 +656,11 @@ body {
 
 /* questDetailPopUp */
 .detailWrap {
-    /* position: relative;*/
+    position: relative;
     width: 100%;
     height: 100vh;
     left: 0;
-    top: -678px;
+    /* top: -678px; */
     overflow: hidden;
     background-color: #002946;
 }
@@ -793,3 +800,61 @@ body {
     height: 95px;
 }
 /* //questDetailPopUp */
+
+/* questCompletePopUp */
+.completeBox {
+    width: 1200px;
+    height: 550px;
+    background-size: contain;
+    margin: 200px auto;
+    color: #FFFFFF;
+}
+.completeBox h1 {
+    font-family: SwiszRegular;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 0 0 15px #00FFFF;
+}
+.completePopUp {
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #000000;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px #00FFFF;
+}
+.completePopUp span {
+    font-size: 30px;
+    font-family: Consolas;
+    text-align: center;
+}
+.completeBox form span {
+    display: block;
+    width: 1000px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+.completeBox form input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: SwiszRegular;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.completeBox form input:hover {
+    text-shadow: 0 0 15px #00FFFF;
+}
+/* //questCompletePopUp */
+
+/* authInsertPopUp */
+.authPopUp {
+
+}
+/* //authInsertPopUp */
