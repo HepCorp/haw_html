@@ -1,10 +1,10 @@
-@import "common.css";
+
 /* tutorial common */
 body {
     overflow: hidden;
 }
 .tutorialWrap {
-    /* position: relative;*/
+    position: relative;
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
@@ -655,6 +655,7 @@ body {
     left: 0;
     top: -678px;
     overflow: hidden;
+    background-color: #002946;
 }
 .questDetailPopUp {
     width: 1200px;
@@ -713,8 +714,16 @@ body {
 }
 .questAnswer {
     display: block;
-    width: 600px;
+    width: 680px;
     height: 45px;
+    margin: 0 auto 10px;
+}
+.questAnswer p:nth-child(1) {
+    width: 520px;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 0;
+    float: left;
 }
 #answer {
     width: 520px;
@@ -722,12 +731,15 @@ body {
     margin-top: 4px;
     background-color: transparent;
     border: 2px solid #00FFFF;
-    float: left;
+    color: #00FFFF;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 .questAnswer p:nth-child(2) {
     width: 45px;
     line-height: 45px;
     height: 45px;
+    margin-right: 40px;
     border: 2px solid #00FFFF;
     border-radius: 45px;
     float: right;
@@ -742,11 +754,42 @@ body {
     border: none;
     outline: none;
     vertical-align: middle;
+    cursor: pointer;
 }
 .authButton {
     display: block;
     width: 680px;
     height: 30px;
-    background-color: darkgreen;
+}
+.authButton p{
+    width: 150px;
+    height: 30px;
+    margin-left: 45px;
+    background: url("../images/auth-button.png") no-repeat center;
+    background-size: contain;
+}
+#auth {
+    width: 150px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-family: SwiszRegular;
+    font-size: 18px;
+    cursor: pointer;
+}
+.connectLine {
+    width: 150px;
+    height: 95px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 100px;
+    margin-top: -358px;
+}
+.connectLine img {
+    width: 150px;
+    height: 95px;
 }
 /* //questDetailPopUp */

@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/haw_html/css/tutorial.css">
+    <link rel="stylesheet" href="/haw_html/css/tutorial.scss">
+    <script type="text/javascript" rel="/haw_html/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" rel="/haw_html/js/tutorial.js"></script>
     <title>Hacktorial World</title>
 </head>
 <body>
@@ -29,18 +32,19 @@
                 </fieldset>
             </form>
         </div>
-        <div class="connectLine"></div>
+        <div class="connectLine">
+            <img src="/haw_html/images/progressbar-connect-line.png" alt="프로그래스바 연결 선">
+        </div>
         <div class="questProgressBar">
             <div class="radialProgress">
                 <ul class="progress">
                     <li class="progressCircle">
-                        <div class="ProgressBar ProgressBar--animateAll" data-progress="59">
+                        <div class="progressBar ProgressBar--animateAll" data-progress="50">
                             <p>Completed</p>
-                            <svg class="ProgressBar-contentCircle">
-                                <!-- on défini le l'angle et le centre de rotation du cercle -->
-                                <circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" ></circle>
-                                <circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" cx="100" cy="100" r="95" ></circle>
-                                <span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+                            <svg class="progressBar-contentCircle">
+                                <circle transform="rotate(-90, 100, 100)" class="progressBar-background" cx="100" cy="100" r="65" ></circle>
+                                <circle transform="rotate(-90, 100, 100)" class="progressBar-circle" cx="100" cy="100" r="65    " ></circle>
+                                <span class="progressBar-percentage progressBar-percentage--count"></span>
                             </svg>
                         </div>
                     </li>
