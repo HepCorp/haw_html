@@ -3,10 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="/haw_html/css/tutorial.css">
-    <link type="text/css" rel="stylesheet" href="/haw_html/css/tutorial.scss">
-    <!--<link type="text/css" rel="stylesheet" href="/haw_html/css/member.css">-->
-    <script type="text/javascript" rel="/haw_html/jquery-3.1.1/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" rel="/haw_html/js/tutorial.js"></script>
     <link rel="import" href="/haw_html/tutorial/chatPopUp.html">
     <title>Hacktorial World</title>
 </head>
@@ -20,6 +16,7 @@
             <div class="questContent">
                 <p>From. Sam</p>
                 <span>제주도 서귀포시 위쪽에 있는 시의 영문 이름을 알려주세요.</span>
+                <p><img src="/haw_html/images/download-icon.png" alt="다운로드 아이콘"><a href="" id="downloadBtn">attatched_file.zip</a></p>
             </div>
             <form action="">
                 <fieldset>
@@ -34,41 +31,41 @@
                 </fieldset>
             </form>
         </div>
-        <div class="connectLine">
+        <div class="questConnectLine">
             <img src="/haw_html/images/progressbar-connect-line.png" alt="프로그래스바 연결 선">
         </div>
         <div class="questProgressBar">
-            <div class="radialProgress">
-                <ul class="progress">
-                    <li class="progressCircle">
-                        <div class="progressBar ProgressBar--animateAll" data-progress="50">
-                            <p>Completed</p>
-                            <svg class="progressBar-contentCircle">
-                                <circle transform="rotate(-90, 100, 100)" class="progressBar-background" cx="100" cy="100" r="65" ></circle>
-                                <circle transform="rotate(-90, 100, 100)" class="progressBar-circle" cx="100" cy="100" r="65    " ></circle>
-                                <span class="progressBar-percentage progressBar-percentage--count"></span>
-                            </svg>
-                        </div>
-                    </li>
-                </ul>
+            <span id="progress0">
+                <img src="/haw_html/images/progressbar-0.png" alt="프로그래스바 기본">
+                <p id="completePer"><b>50%</b><br>Completed</p>
+            </span>
+            <span id="progress50">
+                <img src="/haw_html/images/progressbar-50.png" alt="프로그래스바 진행중">
+            </span>
+        </div>
+        <div class="authConnectLine">
+            <img src="/haw_html/images/auth-connect-line.png" alt="어쓰 입력창 연결 선">
+        </div>
+        <div class="authPopUp">
+            <div class="authBox">
+                <div class="auth">
+                    <form action="">
+                        <fieldset>
+                            <legend>어쓰 체크</legend>
+                            <span id="authInputArea">
+                                <input type="text" id="authInsert" name="authInsert" autofocus="autofocus">
+                            </span>
+                            <span id="authSubmit">
+                                <input type="submit" id="checkButton" name="auth" value="">
+                            </span>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
+
         </div>
     </div>
-    <div class="authPopUp">
-        <h2>SEOGWIPO CITY</h2>
-        <div class="authBox"><!-- 레이아웃 이미지 이 태그에 넣기 -->
-            <div class="auth">
-                <form action="">
-                    <fieldset>
-                        <legend>어쓰 체크</legend>
-                        <input type="text" id="authInsert" name="authInsert">
-                        <input type="submit" id="checkButton" name="auth">
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-        <div class="connectLine"></div>
-    </div>
+
 </section>
 </body>
 </html>
