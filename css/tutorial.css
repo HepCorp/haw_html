@@ -141,8 +141,9 @@ body {
     background-color: #00FFFF;
     color: #FFFFFF;
 }
-.tutorialSection form input[type=button] {
+.tutorialSection form input#no {
     margin-right: 40px;
+    margin-left: 10px;
 }
 /* //tutorialStartPopUp */
 
