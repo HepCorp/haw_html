@@ -436,7 +436,7 @@ body {
 #sgpPointer img {
     width: 100px;
 }
-#seogwipo {
+#seogwipoActive {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -980,3 +980,42 @@ body {
     text-shadow: 0 0 15px #00FFFF;
 }
 /* //questCompletePopUp */
+
+/* tutorialEnd */
+#jjcMap {
+    display: block;
+    width: 690px;
+    height: 287px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -362px;
+    margin-top: -202px;
+}
+#jjcMap img {
+    height: 280px;
+}
+#jjcPointer {
+    display: block;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -51px;
+    margin-top: -125px;
+}
+#jjcPointer img {
+    width: 100px;
+}
+#jejuCityActive {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: 53px;
+    margin-top: -124px;
+}
+/* //tutorialEnd */

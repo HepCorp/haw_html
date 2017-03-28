@@ -123,7 +123,7 @@ section h2 img {
     width: 1200px;
     height: 628px;
     margin: 50px auto 0;
-    background: url("../images/jejucity.png") no-repeat center;
+    background: url("../images/jejucity-inactive.png") no-repeat center;/* 제주시 활성화됬을때 jejucity-active.png로 이미지 교체해주세요 */
     background-size: contain
 }
 .mainWrap {
@@ -135,7 +135,7 @@ section h2 img {
 .jejuMap {
     width: 1200px;
     height: 628px;
-    background: url("../images/seogwipocity.png") no-repeat center;
+    background: url("../images/seogwipocity-active.png") no-repeat center;/* 제주시 활성화됬을때는 seogwipocity-inactive.png로 이미지 교체해주세요 */
     background-size: contain;
 }
 .location {
