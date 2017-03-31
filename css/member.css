@@ -32,13 +32,6 @@ section h2 img {
     background: url("../images/worldmap-bg.png") no-repeat center;
     background-size: contain;
 }
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-    transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: #00FFFF !important;
-}
 
 /* //member common */
 
