@@ -378,8 +378,7 @@ padding: 30px 20px 0;
     background-color: #0E131A;
     box-sizing: border-box;
     border-radius: 30px;
-    border: 5px solid transparent;
-    border-image: -webkit-linear-gradient(-45deg, #00FFFF 1%,#9500FF 100%);
+    border: 5px solid #00ffff;
 }
 
 /* //Popup */

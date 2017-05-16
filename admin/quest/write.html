@@ -127,7 +127,7 @@
                                     <p>
                                         <label class="toggleSwitch large" onclick="">
                                             <input type="checkbox" checked />
-                                                <span>
+                                            <span>
                                                     <span>OFF</span>
                                                     <span>ON</span>
                                                 </span>
@@ -187,7 +187,44 @@
     <div class="popup-wrapper">
         <div class="mission-popup-wrap">
             <div class="mission-popup-layer">
-
+                <form action="">
+                    <fieldset class="mission-write">
+                        <div class="writeForm">
+                            <table class="mission-input-left">
+                                <tr>
+                                    <th>유형</th>
+                                    <td>
+                                        <span class="radio-box"><input type="radio" name="mission-type" value="문제">문제</span>
+                                        <span class="radio-box"><input type="radio" name="mission-type" value="파일">파일</span>
+                                        <span class="radio-box"><input type="radio" name="mission-type" value="서버">서버</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>From</th>
+                                    <td><input type="text" id="mission-from" class="long-textBox"></td>
+                                </tr>
+                                <tr>
+                                    <th>문제</th>
+                                    <td>
+                                        <textarea name="mission-write" id="mission-con-area" cols="200" rows="50"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>링크</th>
+                                    <td><input type="text" id="mission-link" class="large-textbox"></td>
+                                </tr>
+                                <tr>
+                                    <th>이미지</th>
+                                    <td>
+                                        <span>
+                                            <img src="/haw_html/admin/images/file.png" alt="파일다운 아이콘">
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </div>
     </div>
