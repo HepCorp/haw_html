@@ -18,6 +18,11 @@
 
         <!-- content-wrap -->
         <div class="content-wrap">
+            <div class="btn-wrap">
+                <button type="button" id="quest-write-btn" class="write-btn">등록</button>
+                <button type="button" id="quest-revise-btn" class="revise-btn">수정</button>
+                <button type="button" id="quest-delete-btn" class="delete-btn">삭제</button>
+            </div>
             <form>
                 <fieldset>
                     <legend>퀘스트입력</legend>
@@ -26,18 +31,18 @@
                         <tr>
                             <th>문제유형</th>
                             <td colspan="3">
-                                <input type="checkbox" name="type" value="B" id="type_B" ><label for="type_B">문제</label>
-                                <input type="checkbox" name="type" value="D" id="type_D" ><label for="type_D">다운로드</label>
-                                <input type="checkbox" name="type" value="S" id="type_S" ><label for="type_S">서버</label>
+                                <input type="radio" name="type" value="B" id="type_B" ><label for="type_B">문제</label>
+                                <input type="radio" name="type" value="D" id="type_D" ><label for="type_D">다운로드</label>
+                                <input type="radio" name="type" value="S" id="type_S" ><label for="type_S">서버</label>
                             </td>
                         </tr>
                         <tr>
                             <th>난이도</th>
                             <td colspan="3">
-                                <input type="checkbox" name="level" value="10" id="level_10"><label for="level_10">Beginner</label>
-                                <input type="checkbox" name="level" value="20" id="level_20"><label for="level_20">Beginner</label>
-                                <input type="checkbox" name="level" value="30" id="level_30"><label for="level_30">Beginner</label>
-                                <input type="checkbox" name="level" value="40" id="level_40"><label for="level_40">Beginner</label>
+                                <input type="radio" name="level" value="10" id="level_10"><label for="level_10">Beginner</label>
+                                <input type="radio" name="level" value="20" id="level_20"><label for="level_20">Beginner</label>
+                                <input type="radio" name="level" value="30" id="level_30"><label for="level_30">Beginner</label>
+                                <input type="radio" name="level" value="40" id="level_40"><label for="level_40">Beginner</label>
                             </td>
                         </tr>
                         <tr>
@@ -53,7 +58,7 @@
                         <tr>
                             <th>제목</th>
                             <td>
-                                <input type="text" name="title" >
+                                <input type="text" name="title" class="long-textBox" >
                             </td>
                             <th>포인트</th>
                             <td><input type="number" value="0" ></td>
@@ -61,24 +66,64 @@
                         <tr>
                             <th>플래그</th>
                             <td>
-                                <input type="text" name="auth" >
+                                <input type="text" name="auth" class="long-textBox">
                             </td>
-                            <th>퀘스트 클리어조건</th>
+                            <th>클리어조건</th>
                             <td><input type="number" value="0"></td>
                         </tr>
                         <tr>
                             <th>설명</th>
                             <td colspan="3">
-                                <input type="text" name="description" >
+                                <input type="text" name="description" class="long-textBox" >
                             </td>
                         </tr>
                         <tr>
                             <th>태그</th>
-                            <td colspan="3"><input type="text" ></td>
+                            <td colspan="3">
+                                <input type="text" class="medium-textBox">&nbsp;
+                                <button type="button" id="tag-plus-btn" class="tag-btn">
+                                    <img src="/haw_html/admin/images/check-btn.png" alt="체크 버튼">
+                                </button>
+                                <div class="tags">
+                                    <span >#jeju</span>
+                                    <span >#asia</span>
+                                    <span >#beginner</span>
+                                    <span >#제주도</span>
+                                    <span >#frompotter</span>
+                                    <span >#computerscience</span>
+                                    <span >#jeju</span>
+                                    <span >#asia</span>
+                                    <span >#beginner</span>
+                                    <span >#제주도</span>
+                                    <span >#frompotter</span>
+                                    <span >#computerscience</span>
+                                    <span >#jeju</span>
+                                    <span >#asia</span>
+                                    <span >#beginner</span>
+                                    <span >#제주도</span>
+                                    <span >#frompotter</span>
+                                    <span >#computerscience</span>
+                                    <span >#jeju</span>
+                                    <span >#asia</span>
+                                    <span >#beginner</span>
+                                    <span >#제주도</span>
+                                    <span >#frompotter</span>
+                                    <span >#computerscience</span>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th>최초오픈</th>
-                            <td><input type="checkbox" >ON</td>
+                            <th class="high">최초오픈</th>
+                            <td>
+                                <label class="toggleSwitch small" onclick="" >
+                                    <input type="checkbox" checked />
+                                    <span>
+                                                    <span>OFF</span>
+                                                    <span>ON</span>
+                                                </span>
+                                    <a></a>
+                                </label>
+                            </td>
                             <th>오픈조건</th>
                             <td><input type="number" value="0"></td>
                         </tr>
@@ -86,11 +131,6 @@
                     </table>
                 </fieldset>
             </form>
-        </div>
-        <div class="btn-wrap">
-            <button type="button" id="quest-write-btn" class="write-btn">등록</button>
-            <button type="button" id="quest-revise-btn" class="revise-btn">수정</button>
-            <button type="button" id="quest-delete-btn" class="delete-btn">삭제</button>
         </div>
         <!-- //content-wrap -->
     </div>
