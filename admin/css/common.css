@@ -209,6 +209,7 @@ table.writeForm th {
     padding: 10px 0 10px 10px;
     box-sizing: border-box;
     text-align: left;
+    vertical-align:top;
 }
 table.writeForm td {
     padding:0 10px;
