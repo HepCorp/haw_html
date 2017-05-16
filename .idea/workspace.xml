@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8642a34-198e-4fcc-bf0c-f91fc80837dc" name="Default" comment="">
+<<<<<<< Updated upstream
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/css/quest(1).css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/include/left_menu.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/include/top_search.html" />
@@ -9,6 +10,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psd/jpg/adming-layout-question2-1.jpg" afterPath="$PROJECT_DIR$/psd/jpg/adming-layout-question2-1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/common.css" afterPath="$PROJECT_DIR$/admin/css/common.css" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/common.css" afterPath="$PROJECT_DIR$/admin/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/quest.css" afterPath="$PROJECT_DIR$/admin/css/quest.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/quest/write.html" afterPath="$PROJECT_DIR$/admin/quest/write.html" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,6 +29,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/quest/index.html">
@@ -96,6 +104,63 @@
         </entry>
       </file>
     </leaf>
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.46930093">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="write.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/admin/quest/write.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#972#976#1" expanded="true" />
+                    <element signature="e#1261#1265#1" expanded="true" />
+                    <element signature="e#3721#3725#0" expanded="true" />
+                    <element signature="e#3814#3818#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/admin/css/reset.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="969">
+                  <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="quest.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/admin/css/quest.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="193">
+                  <caret line="353" column="0" lean-forward="true" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/admin/css/common.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> Stashed changes
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,12 +200,20 @@
         <option value="$PROJECT_DIR$/admin/css/member.css" />
         <option value="$PROJECT_DIR$/admin/index.html" />
         <option value="$PROJECT_DIR$/admin/css/index.css" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/admin/quest/write.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/admin/include/top_search.html" />
         <option value="$PROJECT_DIR$/admin/quest/write(1).html" />
         <option value="$PROJECT_DIR$/admin/css/quest(1).css" />
         <option value="$PROJECT_DIR$/admin/include/left_menu.html" />
+=======
+        <option value="$PROJECT_DIR$/admin/quest/questWrite.html" />
+        <option value="$PROJECT_DIR$/admin/quest/index.html" />
+        <option value="$PROJECT_DIR$/admin/css/reset.css" />
+        <option value="$PROJECT_DIR$/admin/quest/write.html" />
+        <option value="$PROJECT_DIR$/admin/css/quest.css" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/admin/css/common.css" />
       </list>
     </option>
@@ -375,9 +448,14 @@
       <workItem from="1494468922081" duration="429000" />
       <workItem from="1494469366441" duration="4424000" />
       <workItem from="1494552665897" duration="14579000" />
+<<<<<<< Updated upstream
       <workItem from="1494811696520" duration="502000" />
       <workItem from="1494852163499" duration="109000" />
       <workItem from="1494900685826" duration="5205000" />
+=======
+      <workItem from="1494811696520" duration="24062000" />
+      <workItem from="1494897747353" duration="6397000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="admin layout 설정 완료 ( 사이드 네비게이션, 상단 고정 검색창)">
       <created>1494575780368</created>
@@ -386,11 +464,33 @@
       <option name="project" value="LOCAL" />
       <updated>1494575780368</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="25402000" />
+=======
+    <task id="LOCAL-00002" summary="미션, 퀘스트 등록 페이지 psd, jpg 수정">
+      <created>1494812329557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494812329557</updated>
+    </task>
+    <task id="LOCAL-00003" summary="퀘스트 등록페이지 (admin&gt;write.html, write.css) 추가">
+      <created>1494849726481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1494849726481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50045000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -398,13 +498,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -425,29 +525,75 @@
       <path value="$PROJECT_DIR$/haw_html" />
     </ignored-roots>
     <MESSAGE value="admin layout 설정 완료 ( 사이드 네비게이션, 상단 고정 검색창)" />
+<<<<<<< Updated upstream
     <option name="LAST_COMMIT_MESSAGE" value="admin layout 설정 완료 ( 사이드 네비게이션, 상단 고정 검색창)" />
+=======
+    <MESSAGE value="미션, 퀘스트 등록 페이지 psd, jpg 수정" />
+    <MESSAGE value="퀘스트 등록페이지 (admin&gt;write.html, write.css) 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="퀘스트 등록페이지 (admin&gt;write.html, write.css) 추가" />
+>>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/admin/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/admin/quest/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="107" column="82" lean-forward="false" selection-start-line="107" selection-start-column="82" selection-end-line="107" selection-end-column="82" />
+          <folding>
+            <element signature="e#972#976#1" expanded="true" />
+            <element signature="e#1261#1265#1" expanded="true" />
+            <element signature="e#3721#3725#0" expanded="true" />
+            <element signature="e#3814#3818#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+=======
+        <state relative-caret-position="969">
+          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/quest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="119" column="39" lean-forward="true" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/quest/index.html">
       <provider selected="true" editor-type-id="text-editor">
+>>>>>>> Stashed changes
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/admin/quest/write.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -457,6 +603,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/css/common.css">
+=======
+    <entry file="file://$PROJECT_DIR$/admin/quest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/quest.css">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -464,9 +620,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/admin/index.html" />
     <entry file="file://$PROJECT_DIR$/admin/index.html" />
     <entry file="file://$PROJECT_DIR$/admin/css/index.css" />
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/admin/member/member.html" />
     <entry file="file://$PROJECT_DIR$/admin/css/member.css" />
     <entry file="file://$PROJECT_DIR$/css/common.css">
@@ -476,6 +635,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/true">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -501,6 +670,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+<<<<<<< Updated upstream
         </state>
       </provider>
     </entry>
@@ -511,6 +681,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
           <folding />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -522,6 +694,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/admin/css/quest(1).css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -544,28 +717,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/admin/quest/questWrite.html" />
+    <entry file="file://$PROJECT_DIR$/admin/quest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/admin/include/top_search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/admin/css/quest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="353" column="0" lean-forward="true" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/admin/include/left_menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/admin/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/quest/write.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="172">
           <caret line="63" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="7" />
           <folding />
@@ -585,6 +787,16 @@
         <state relative-caret-position="255">
           <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding />
+=======
+        <state relative-caret-position="136">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding>
+            <element signature="e#972#976#1" expanded="true" />
+            <element signature="e#1261#1265#1" expanded="true" />
+            <element signature="e#3721#3725#0" expanded="true" />
+            <element signature="e#3814#3818#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
