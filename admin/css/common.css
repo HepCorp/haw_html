@@ -246,7 +246,7 @@ table.writeform td input.short-textBox{
     width: 80px;
 }
 table.writeForm td label{
-    margin:0 10px 0 5px;
+    margin:0 10px 0 0;
 }
 table.writeForm td input[type=radio]{
     outline: none;
@@ -285,6 +285,9 @@ table.writeForm td button.tag-btn{
 
 
 /* tags */
+div.tags{
+    margin-bottom: 7px;
+}
 div.tags span{
     padding: 3px 7px;
     border-radius: 3px;
