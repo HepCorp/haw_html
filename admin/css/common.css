@@ -127,7 +127,6 @@ body {
     height: 60px;
     background-color: #191F28;
     margin-bottom: 30px;
-    margin-bottom: 30px;
 }
 
 .search-box-wrapper fieldset ul li input#search-window {
@@ -159,4 +158,56 @@ body {
 .search-box-wrapper fieldset ul li button#search-btn img {
     width: 33px;
     height: 33px;
+}
+
+.main-title {
+    font-size: 28px;
+    font-family: "Noto Sans CJK KR DemiLight";
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.content-wrap {
+    width: 100%;
+}
+
+.btn-wrap {
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    text-align: right;
+}
+
+.btn-wrap button {
+    background-color: transparent;
+    border: 1px solid #666666;
+    border-radius: 3px;
+    width: 60px;
+    height: 25px;
+    color: #A6A6A6;
+    font-size: 14px;
+    font-family: "Noto Sans CJK KR Light";
+    /*line-height: 14px;*/
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 5px;
+    outline: none;
+    padding-top: 2px;
+}
+
+
+/* writeForm */
+table.writeForm {
+    width: 100%;
+}
+table.writeForm th {
+    width: 15%;
+    background-color: #191F28;
+    font-size: 14px;
+    font-family: "Noto Sans CJK KR Light";
+    color: #A3A3A3;
+    padding-top: 30px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    text-align: left;
 }
