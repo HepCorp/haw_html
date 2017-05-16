@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import "reset.css";
+
 body {
     overflow-x: hidden;
     margin: 0;
@@ -27,7 +30,7 @@ body {
 .sidebar-nav #haw-logo {
     height: 90px;
     text-align: center;
-    margin: 50px 0 30px;
+    margin: 30px 0 10px;
     padding-left: 0;
 }
 
@@ -47,9 +50,9 @@ body {
 }
 
 .sidebar-nav li.menu {
-    height: 60px;
-    line-height: 60px;
-    padding-left: 50px;
+    height: 40px;
+    /*line-height: 60px;*/
+    padding: 13px 0 0 50px;
     box-sizing: border-box;
     display: block;
 }
@@ -64,9 +67,32 @@ body {
 
 .sidebar-nav li.menu a {
     color: #999999;
-    font-size: 22px;
+    font-size: 16px;
     font-family: "Noto Sans CJK KR Regular";
 }
+
+.sidebar-nav li.activity {
+    height: 40px;
+    /*line-height: 60px;*/
+    padding: 13px 0 0 50px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.sidebar-nav li.activity {
+    padding-left: 45px;
+    box-sizing: border-box;
+    border-width: 0 0 0 5px;
+    border-style: solid;
+    -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00FFFF), to(#9500FF))0 0 0 100% stretch;
+}
+
+.sidebar-nav li.activity a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Noto Sans CJK KR Regular";
+}
+
 .sidebar-nav li a.menu-title {
     display: inline-block;
     width: 150px;
@@ -87,7 +113,7 @@ body {
     width: calc(100% - 250px);
     height: 100%;
     position: absolute;
-    padding: 50px;
+    padding: 30px 50px;
     right: 0;
     box-sizing: border-box;
     background: #0E131A;
@@ -98,15 +124,16 @@ body {
 }
 .search-box-wrapper {
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-color: #191F28;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .search-box-wrapper fieldset ul li input#search-window {
     display: inline-block;
     width: 90%;
-    height: 80px;
+    height: 60px;
     border: none;
     float: left;
     padding: 0 50px;
@@ -118,7 +145,7 @@ body {
 }
 .search-box-wrapper fieldset ul li button#search-btn {
     display: inline;
-    height: 80px;
+    height: 60px;
     border: none;
     float: right;
     padding: 0 30px 0 0;
