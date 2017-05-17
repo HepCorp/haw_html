@@ -2,234 +2,301 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="/haw_html/admin/css/reset.css">
     <link type="text/css" rel="stylesheet" href="/haw_html/admin/css/common.css">
     <link type="text/css" rel="stylesheet" href="/haw_html/admin/css/quest.css">
     <link type="" rel="stylesheet" href="">
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
     <title>HA.W ADMIN</title>
 </head>
 <body>
 <div id="wrapper">
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li id="haw-logo">
-                <img src="/haw_html/admin/images/haw-logo90.png" alt="핵토리얼월드 로고">
-            </li>
-            <li id="sidebar-brand">
-                <h2>
-                    HACKTORIAL
-                    <br>
-                    WORLD
-                </h2>
-            </li>
-            <li class="menu">
-                <p>
-                    <a href="#" class="menu-title">회원가입</a>
-                    <a href="#" class="menu-go">&gt;</a>
-                </p>
-            </li>
-            <!--<li>
-                <a href="#">팀</a>
-                <a href="#">&gt;</a>
-            </li>-->
-            <li class="menu">
-                <a href="#" class="menu-title">문제</a>
-                <a href="#" class="menu-go">&gt;</a>
-            </li>
-            <<!--li>
-                <a href="#">지역</a>
-                <a href="#">&gt;</a>
-            </li>
-            <li>
-                <a href="#">뱃지</a>
-                <a href="#">&gt;</a>
-            </li>-->
-        </ul>
-    </div>
-    <!-- //sidebar-wrapper -->
-    <!-- Page Content -->
+    <div w3-include-html="/haw_html/admin/include/left_menu.html"></div>
+    <!-- page-content-wrapper -->
     <div id="page-content-wrapper">
-        <div class="container-fluid">
-            <div class="search-box-wrapper">
-                <form action="">
-                    <fieldset>
-                        <ul>
-                            <li>
-                                <input type="text" id="search-window" title="검색어 입력">
-                            </li>
-                            <li>
-                                <button type="submit" id="search-btn" title="검색 버튼">
-                                    <img src="/haw_html/admin/images/search-icon.png" alt="검색 버튼">
-                                </button>
-                            </li>
-                        </ul>
-                    </fieldset>
-                </form>
+        <div w3-include-html="/haw_html/admin/include/top_search.html"></div>
+        <h2 class="main-title">문제</h2>
+
+        <!-- content-wrap -->
+        <div class="content-wrap">
+            <div class="btn-wrap">
+                <button type="button" id="quest-write-btn" class="write-btn">등록</button>
+                <button type="button" id="quest-revise-btn" class="revise-btn">수정</button>
+                <button type="button" id="quest-delete-btn" class="delete-btn">삭제</button>
             </div>
-        </div>
-        <div class="quest-write-wrap">
-            <h2 class="quest-main-title">문제</h2>
-            <form action="" class="quest-write-box">
+            <form>
                 <fieldset>
-                    <div class="quest-write-form-wrap">
-                        <div class="quest-write-btn-wrap">
-                            <div class="btn-box">
-                                <button type="button" id="quest-write-btn" class="write-btn">등록</button>
-                                <button type="button" id="quest-revise-btn" class="revise-btn">수정</button>
-                                <button type="button" id="quest-delete-btn" class="delete-btn">삭제</button>
-                            </div>
-                        </div>
-                        <table class="quest-input-left">
-                            <tbody>
-                            <tr>
-                                <th>제목</th>
-                                <td>
-                                    <input type="text" id="quest-title" class="long-textBox">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>지역</th>
-                                <td>
-                                    <select name="area" id="quest-area">
-                                        <option value="제주자치도 > 제주시">제주자치도 &gt; 제주시</option>
-                                        <option value="제주자치도 > 서귀포시">제주자치도 &gt; 서귀포시</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>분야</th>
-                                <td>
-                                    <select name="field" id="quest-field">
-                                        <option value="Computer_Science">Computer_Science</option>
-                                        <option value="Web_Hacking">Web_Hacking</option>
-                                        <option value="System_Hacking">System_Hacking</option>
-                                        <option value="Network">Network</option>
-                                        <option value="Forensic">Forensic</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Point</th>
-                                <td>
-                                    <input type="text" id="quest-point" class="short-textBox" >
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>FLAG(답)</th>
-                                <td>
-                                    <input type="text" id="quest-flag" class="long-textBox">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>오픈여부</th>
-                                <td>
-                                    <p>
-                                        <label class="toggleSwitch large" onclick="">
-                                            <input type="checkbox" checked />
-                                            <span>
+                    <legend>퀘스트입력</legend>
+                    <table background="white" border="1" class="writeForm">
+                        <tbody>
+                        <tr>
+                            <th>문제유형</th>
+                            <td colspan="3">
+                                <input type="radio" name="type" value="B" id="type_B01" ><label for="type_B01">문제</label>
+                                <input type="radio" name="type" value="D" id="type_D01" ><label for="type_D01">다운로드</label>
+                                <input type="radio" name="type" value="S" id="type_S01" ><label for="type_S01">서버</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>난이도</th>
+                            <td colspan="3">
+                                <input type="radio" name="level" value="10" id="level_10"><label for="level_10">Beginner</label>
+                                <input type="radio" name="level" value="20" id="level_20"><label for="level_20">Beginner</label>
+                                <input type="radio" name="level" value="30" id="level_30"><label for="level_30">Beginner</label>
+                                <input type="radio" name="level" value="40" id="level_40"><label for="level_40">Beginner</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>지역선택</th>
+                            <td colspan="3">
+                                <select name="region">
+                                    <option>::지역선택::</option>
+                                    <option value="1">제주자치도 > 제주시</option>
+                                    <option value="2">제주자치도 > 서귀포시</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>제목</th>
+                            <td>
+                                <input type="text" name="title" class="long-textBox" >
+                            </td>
+                            <th>포인트</th>
+                            <td><input type="number" value="0" ></td>
+                        </tr>
+                        <tr>
+                            <th>플래그</th>
+                            <td>
+                                <input type="text" name="auth" class="long-textBox">
+                            </td>
+                            <th>클리어조건</th>
+                            <td><input type="number" value="0"></td>
+                        </tr>
+                        <tr>
+                            <th>설명</th>
+                            <td colspan="3">
+                                <input type="text" name="description" class="long-textBox" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>태그</th>
+                            <td colspan="3">
+                                <input type="text" class="medium-textBox">&nbsp;
+                                <button type="button" id="tag-plus-btn01" class="tag-hint-btn">
+                                    <img src="/haw_html/admin/images/check-btn.png" alt="체크 버튼">
+                                </button>
+                                <div class="tags">
+                                    <span >#jeju</span>
+                                    <span >#asia</span>
+                                    <span >#beginner</span>
+                                    <span >#제주도</span>
+                                    <span >#frompotter</span>
+                                    <span >#computerscience</span>
+                                    <span >#jeju</span>
+                                    <span >#asia</span>
+                                    <span >#beginner</span>
+                                    <span >#제주도</span>
+                                    <span >#frompotter</span>
+                                    <span >#computerscience</span>
+                                    <span >#jeju</span>
+                                    <span >#asia</span>
+                                    <span >#beginner</span>
+                                    <span >#제주도</span>
+                                    <span >#frompotter</span>
+                                    <span >#computerscience</span>
+                                    <span >#jeju</span>
+                                    <span >#asia</span>
+                                    <span >#beginner</span>
+                                    <span >#제주도</span>
+                                    <span >#frompotter</span>
+                                    <span >#computerscience</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="high">최초오픈</th>
+                            <td>
+                                <label class="toggleSwitch" onclick="" >
+                                    <input type="checkbox" checked />
+                                    <span>
                                                     <span>OFF</span>
                                                     <span>ON</span>
                                                 </span>
-                                            <a></a>
-                                        </label>
-                                    </p>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <table class="quest-input-right">
-                            <tbody>
-                            <tr>
-                                <th>문제유형</th>
-                                <td>
-                                    <span class="radio-box"><input type="radio" name="quest-type" value="문제">문제</span>
-                                    <span class="radio-box"><input type="radio" name="quest-type" value="파일">파일</span>
-                                    <span class="radio-box"><input type="radio" name="quest-type" value="서버">서버</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>난이도</th>
-                                <td>
-                                    <span class="radio-box"><input type="radio" name="quest-level" value="Beginner">Beginner</span>
-                                    <span class="radio-box"><input type="radio" name="quest-level" value="Beginner">Intermediator</span>
-                                    <span class="radio-box"><input type="radio" name="quest-level" value="Beginner">Professional</span>
-                                    <span class="radio-box"><input type="radio" name="quest-level" value="Beginner">Master</span>
-                                    <span class="radio-box"><input type="radio" name="quest-level" value="Beginner">Beginner</span>
-                                    <span class="radio-box"><input type="radio" name="quest-level" value="Beginner">Beginner</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>태그(#)</th>
-                                <td>
-                                    <input type="text" id="quest-tag" class="long-textBox">
-                                    <button type="button" id="tag-plus-btn" class="tag-btn">
-                                        <img src="/haw_html/admin/images/check-btn.png" alt="체크 버튼">
-                                    </button>
-                                    <div class="tags">
-                                        <span class="tag-type01">#jeju</span>
-                                        <span class="tag-type02">#asia</span>
-                                        <span class="tag-type01">#beginner</span>
-                                        <span class="tag-type02">#제주도</span>
-                                        <span class="tag-type01">#frompotter</span>
-                                        <span class="tag-type02">#computerscience</span>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                                    <a></a>
+                                </label>
+                            </td>
+                            <th>오픈조건</th>
+                            <td><input type="number" value="0"></td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </fieldset>
             </form>
         </div>
-
+        <!-- //content-wrap -->
     </div>
+
+    <!--popup wrapper-->
     <div class="popup-wrapper">
         <div class="mission-popup-wrap">
             <div class="mission-popup-layer">
                 <form action="">
-                    <fieldset class="mission-write">
-                        <div class="writeForm">
-                            <table class="mission-input-left">
-                                <tr>
-                                    <th>유형</th>
-                                    <td>
-                                        <span class="radio-box"><input type="radio" name="mission-type" value="문제">문제</span>
-                                        <span class="radio-box"><input type="radio" name="mission-type" value="파일">파일</span>
-                                        <span class="radio-box"><input type="radio" name="mission-type" value="서버">서버</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>From</th>
-                                    <td><input type="text" id="mission-from" class="long-textBox"></td>
-                                </tr>
-                                <tr>
-                                    <th>문제</th>
-                                    <td>
-                                        <textarea name="mission-write" id="mission-con-area" cols="200" rows="50"></textarea>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>링크</th>
-                                    <td><input type="text" id="mission-link" class="large-textbox"></td>
-                                </tr>
-                                <tr>
-                                    <th>이미지</th>
-                                    <td>
+                    <fieldset>
+                        <table class="writeForm">
+                            <tr>
+                                <th>문제유형</th>
+                                <td colspan="5">
+                                    <input type="radio" name="type" value="B" id="type_B02" ><label for="type_B01">문제</label>
+                                    <input type="radio" name="type" value="D" id="type_D02" ><label for="type_D01">다운로드</label>
+                                    <input type="radio" name="type" value="S" id="type_S02" ><label for="type_S01">서버</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>From</th>
+                                <td colspan="2"><input type="text" id="mission-from" class="long-textBox"></td>
+                                <th>포인트</th>
+                                <td colspan="2"><input type="number" value="0" ></td>
+                            </tr>
+                            <tr>
+                                <th>플래그</th>
+                                <td colspan="5">
+                                    <input type="text" name="auth" class="long-textBox">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>문제</th>
+                                <td colspan="5">
+                                    <textarea name="mission-write" id="mission-con-area" cols="200" rows="50"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>링크</th>
+                                <td colspan="5"><input type="text" id="mission-link" class="long-textBox"></td>
+                            </tr>
+                            <tr>
+                                <th>이미지</th>
+                                <td colspan="2">
+                                    <span>
+                                        <img src="/haw_html/admin/images/file.png" class="fileIcon" alt="파일다운 아이콘">
+                                        <a class="fileName" href="">image_file.png</a>
+                                        <button type="button" class="delete-attach">x</button>
+                                    </span>
+                                    <button type="button" class="attach-ok">이미지첨부</button>
+                                </td>
+                                <th>제한시간</th>
+                                <td colspan="2">
+                                    <select name="time-limit" id="mission-time">
+                                        <option value="time-value">5분</option>
+                                        <option value="time-value">10분</option>
+                                        <option value="time-value">15분</option>
+                                        <option value="time-value">20분</option>
+                                        <option value="time-value">25분</option>
+                                        <option value="time-value">30분</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>첨부파일</th>
+                                <td colspan="2">
                                         <span>
-                                            <img src="/haw_html/admin/images/file.png" alt="파일다운 아이콘">
+                                            <img src="/haw_html/admin/images/file.png" class="fileIcon" alt="파일다운 아이콘">
+                                            <a class="fileName" href="">attach_file.zip</a>
+                                            <button type="button" class="delete-attach">x</button>
                                         </span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
+                                    <button type="button" class="attach-ok">파일첨부</button>
+                                </td>
+                                <th>힌트포인트</th>
+                                <td colspan="2">
+                                    <input type="number" value="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>힌트</th>
+                                <td colspan="5">
+                                    <input type="text" class="medium-textBox">&nbsp;
+                                    <button type="button" id="hint-plus-btn" class="tag-hint-btn">
+                                        <img src="/haw_html/admin/images/check-btn.png" alt="체크 버튼">
+                                    </button>
+                                    <div class="hint-wrapper">
+                                        <span class="hint-view-wrapper">
+                                            <span class="hint-view">힌트다 힌트!</span>
+                                            <button type="button" class="delete-hint">x</button>
+                                        </span>
+                                        <span class="hint-view-wrapper">
+                                            <span class="hint-view">이미지의 좌측 상단을 잘 살펴보세요</span>
+                                            <button type="button" class="delete-hint">x</button>
+                                        </span>
+                                        <span class="hint-view-wrapper">
+                                            <span class="hint-view">첨부파일을 확인해보세요!</span>
+                                            <button type="button" class="delete-hint">x</button>
+                                        </span>
+                                        <span class="hint-view-wrapper">
+                                            <span class="hint-view">첨부파일을 확인해보세요!</span>
+                                            <button type="button" class="delete-hint">x</button>
+                                        </span>
+                                        <span class="hint-view-wrapper">
+                                            <span class="hint-view">첨부파일을 확인해보세요!</span>
+                                            <button type="button" class="delete-hint">x</button>
+                                        </span>
+                                        <span class="hint-view-wrapper">
+                                            <span class="hint-view">첨부파일을 확인해보세요!</span>
+                                            <button type="button" class="delete-hint">x</button>
+                                        </span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>태그</th>
+                                <td colspan="5">
+                                    <input type="text" class="medium-textBox">&nbsp;
+                                    <button type="button" id="tag-plus-btn02" class="tag-hint-btn">
+                                        <img src="/haw_html/admin/images/check-btn.png" alt="체크 버튼">
+                                    </button>
+                                    <div class="tags">
+                                        <span >#jeju</span>
+                                        <span >#asia</span>
+                                        <span >#beginner</span>
+                                        <span >#제주도</span>
+                                        <span >#frompotter</span>
+                                        <span >#computerscience</span>
+                                        <span >#jeju</span>
+                                        <span >#asia</span>
+                                        <span >#beginner</span>
+                                        <span >#제주도</span>
+                                        <span >#frompotter</span>
+                                        <span >#computerscience</span>
+                                        <span >#jeju</span>
+                                        <span >#asia</span>
+                                        <span >#beginner</span>
+                                        <span >#제주도</span>
+                                        <span >#frompotter</span>
+                                        <span >#computerscience</span>
+                                        <span >#jeju</span>
+                                        <span >#asia</span>
+                                        <span >#beginner</span>
+                                        <span >#제주도</span>
+                                        <span >#frompotter</span>
+                                        <span >#computerscience</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <span class="mission-submit">
+                            <button type="button" class="mission-write-cancel popupBtn">
+                                <div class="missionCancel"></div>
+                            </button>
+                            <button type="button" class="mission-write-submit popupBtn">
+                                <div class="missionSubmit"></div>
+                            </button>
+                        </span>
                     </fieldset>
                 </form>
             </div>
         </div>
     </div>
-
     <!-- /#page-content-wrapper -->
 </div>
+<script>
+    w3IncludeHTML();
+</script>
 </body>
 </html>
