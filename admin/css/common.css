@@ -209,13 +209,14 @@ table.writeForm th {
     padding: 10px 0 10px 10px;
     box-sizing: border-box;
     text-align: left;
-    vertical-align:top;
+    vertical-align: top;
 }
 table.writeForm td {
     padding:0 10px;
     box-sizing: border-box;
     font-size: 12px;
     font-family: "Noto Sans CJK KR Thin";
+    color: #FFFFFF;
 }
 table.writeForm td input{
     background-color: transparent;
@@ -243,11 +244,12 @@ table.writeForm td input.long-textBox{
 table.writeForm td input.medium-textBox{
     width: 200px;
 }
-table.writeform td input.short-textBox{
+table.writeForm td input.short-textBox{
     width: 80px;
 }
 table.writeForm td label{
-    margin:0 10px 0 0;
+    margin: 0 10px 0 0;
+    font-size: 14px;
 }
 table.writeForm td input[type=radio]{
     outline: none;
@@ -261,6 +263,7 @@ table.writeForm td input[type=radio]{
     box-sizing: border-box;
     padding:0;
     vertical-align: bottom;
+    margin-right: 5px;
 }
 table.writeForm td input[type=radio]:checked {
     outline: none;
@@ -271,35 +274,131 @@ table.writeForm td input[type=radio]:checked {
     border: none;
     border-radius: 3px;
 }
-table.writeForm td button.tag-btn{
-    width: 30px;
+table.writeForm td button.tag-hint-btn {
+    width: 25px;
     height: 25px;
     background-color: #00ffff;
     border-radius: 3px;
     outline: none;
     border: none;
-    vertical-align: middle;
-    margin-left: -4px;
+    margin-left: -6px;
     line-height: 35px;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
+table.writeForm td button.tag-hint-btn img {
+    margin: -5px 3px 2px -3px;
+}
+
+table.writeForm td textarea {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid #00ffff;
+    border-radius: 3px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+}
+
+table.writeForm td textarea::-webkit-scrollbar {
+    width: 10px;
+    background-color: #191F28;
+}
+
+table.writeForm td textarea::-webkit-scrollbar-track {
+    height: 100px;
+    background-color: #191F28;
+}
+
+table.writeForm td textarea::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+
+table.writeForm td textarea::-webkit-scrollbar-corner {
+    width: 0;
+    height: 0;
+    border: none;
+}
+
+table.writeForm td textarea::-webkit-resizer {
+    width: 0;
+    height: 0;
+    border: none;
+}
+
+table.writeForm td span img.fileIcon {
+    vertical-align: middle;
+}
+
+table.writeForm td span a.fileName {
+    color: white;
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: sub;
+}
+table.writeForm td span button.delete-attach {
+    background-color: transparent;
+    border: none;
+    color: #f00;
+    outline: none;
+    vertical-align: text-top;
+    cursor: pointer;
+}
+
+table.writeForm td button.attach-ok {
+    background-color: #a3a3a3;
+    border: none;
+    outline: none;
+    right: 0;
+    width: 80px;
+    height: 25px;
+    float: right;
+    font-family: "Noto Sans CJK KR Light";
+    font-size: 12px;
+}
+
+table.writeForm td .tags span.tag-box {
+    background-color: transparent;
+    padding: 0;
+}
+
+table.writeForm td span button.delete-hint, table.writeForm td .tags button.delete-tag {
+    background-color: transparent;
+    border: none;
+    color: #f00;
+    outline: none;
+    vertical-align: text-top;
+    cursor: pointer;
+}
+
+table.writeForm td div.hint-wrapper {
+    line-height: 20px;
+    width: 100%;
+    padding: 5px 0;
+}
 
 /* tags */
 div.tags{
     margin-bottom: 7px;
 }
 div.tags span{
-    padding: 3px 7px;
+    padding: 3px 0 3px 7px;
     border-radius: 3px;
     font-size: 12px;
     display:inline-block;
     margin-top: 5px;
 }
-div.tags span:nth-child(odd){
+div.tags span.tag-box:nth-child(odd) span {
     background-color: rgba(0, 255, 255, 0.6);
 }
-div.tags span:nth-child(even){
+div.tags span.tag-box:nth-child(even) span{
     background-color: rgba(149, 0, 255, 0.6);
 }
 

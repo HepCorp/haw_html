@@ -1,0 +1,30 @@
+/* Popup */
+
+.popup-wrapper {
+    position: absolute;
+    width: calc(100% - 250px);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    margin-left: 250px;
+    z-index: 6;
+}
+
+.mission-popup-wrap {
+    width: 100%;
+    height: 600px;
+    background-color: #FF0000;
+    margin-top: 150px;
+}
+
+.mission-popup-layer {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #0E131A;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 5px solid #00ffff;
+}
+
+/* //Popup */
