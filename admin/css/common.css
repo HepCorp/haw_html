@@ -364,7 +364,12 @@ table.writeForm td button.attach-ok {
     font-size: 12px;
 }
 
-table.writeForm td span button.delete-hint {
+table.writeForm td .tags span.tag-box {
+    background-color: transparent;
+    padding: 0;
+}
+
+table.writeForm td span button.delete-hint, table.writeForm td .tags button.delete-tag {
     background-color: transparent;
     border: none;
     color: #f00;
@@ -384,16 +389,16 @@ div.tags{
     margin-bottom: 7px;
 }
 div.tags span{
-    padding: 3px 7px;
+    padding: 3px 0 3px 7px;
     border-radius: 3px;
     font-size: 12px;
     display:inline-block;
     margin-top: 5px;
 }
-div.tags span:nth-child(odd){
+div.tags span.tag-box:nth-child(odd) span {
     background-color: rgba(0, 255, 255, 0.6);
 }
-div.tags span:nth-child(even){
+div.tags span.tag-box:nth-child(even) span{
     background-color: rgba(149, 0, 255, 0.6);
 }
 

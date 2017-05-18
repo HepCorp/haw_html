@@ -34,7 +34,7 @@
     width: 100%;
     height: 50px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .mission-submit .popupBtn {
@@ -46,15 +46,30 @@
     border: 3px solid #9500ff;
 }
 
-.mission-submit .mission-write-cancel {
-    background-size: contain;
-    background: url("../images/cancel01.png") no-repeat center;
+.cancel01, .submit01, .missionC, .missionS {
+    width: 25px;
+    height: 25px;
 }
 
+.cancel01-img, .check01-img {
+    /*display: none;*/
+}
+
+.cancel02-img, .check02-img {
+    display: none;
+}
+
+.mission-write-cancel .missionCancel, .mission-write-submit .missionSubmit {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+
+
 .mission-submit .mission-write-submit {
-    background-size: contain;
-    background: url("../images/check01.png") no-repeat center;
     margin-right: 0;
+
 }
 
 .mission-submit .popupBtn:hover {
