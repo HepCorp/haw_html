@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="/haw_html/admin/css/common.css">
+    <link type="text/css" rel="stylesheet" href="/haw_html/admin/css/quest.css">
+    <link type="" rel="stylesheet" href="">
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
+    <title>HA.W ADMIN</title>
+</head>
+<body>
+<div id="wrapper">
+    <div w3-include-html="/haw_html/admin/include/left_menu.html"></div>
+    <!-- page-content-wrapper -->
+    <div id="page-content-wrapper">
+        <div w3-include-html="/haw_html/admin/include/top_search.html"></div>
+        <h2 class="main-title">문제</h2>
+
+        <!-- content-wrap -->
+        <div class="content-wrap">
+            <div class="btn-wrap">
+                <button type="button" id="quest-write-btn" class="write-btn">등록</button>
+                <button type="button" id="quest-revise-btn" class="revise-btn">수정</button>
+                <button type="button" id="quest-delete-btn" class="delete-btn">삭제</button>
+            </div>
+            <div class="list-wrapper">
+                <table class="quest-info">
+                    <tr class="quest-info-wrap">
+                        <td class="info-type01">번호</td>
+                        <td class="info-type01">지역</td>
+                        <td class="info-type03">난이도</td>
+                        <td class="info-type01">타입</td>
+                        <td class="info-type02">제목</td>
+                        <td class="info-type02">플래그</td>
+                        <td class="info-type02">완료</td>
+                        <td class="info-type02">Point</td>
+                        <td class="info-type02">이름</td>
+                        <td class="info-type02">등록일</td>
+                        <td class="info-type02">수정</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="list-wrapper">
+                <table class="mission-info">
+                    <tr class="mission-info-wrap">
+                        <td class="info-type01">문제</td>
+                        <td class="info-type01">10 pt</td>
+                        <td class="info-type03">예전에 사용하던 서버에서 파일을 하나 찾아주세요</td>
+                        <td class="info-type01">00:30</td>
+                        <td class="info-type02">#seogwipo, #asia, #beginner</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- //content-wrap -->
+    </div>
+    <!-- /#page-content-wrapper -->
+</div>
+<script>
+    w3IncludeHTML();
+</script>
+</body>
+</html>
