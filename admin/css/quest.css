@@ -18,23 +18,32 @@
 
 .mission-popup-layer {
     width: 800px;
-    height: 600px;
     margin: 0 auto;
+    /*border-radius: 30px;*/
+    border-left: 5px solid #00ffff;
+    border-right: 5px solid #9500ff;
+    background-image: -webkit-linear-gradient(left, #00ffff, #9500ff), -webkit-linear-gradient(left, #00ffff, #9500ff);
+    background-image: linear-gradient(left, #00ffff, #9500ff), linear-gradient(left, #00ffff, #9500ff);
+    background-size: 100% 5px;
+    background-position: 0 100%, 0 0;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     background-color: #0E131A;
     box-sizing: border-box;
-    border-radius: 30px;
-    border: 5px solid #00ffff;
 }
-.mission-popup-layer .writeForm tr:first-child th:first-child {
+.mission-popup-layer .writeForm {
+    margin-top: 5px;
+}
+/*.mission-popup-layer .writeForm tr:first-child th:first-child {
     border-radius: 30px 0 0 0;
-}
+}*/
 
 .mission-submit {
     display: inline-block;
     width: 100%;
     height: 50px;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0 30px;
 }
 
 .mission-submit .popupBtn {
@@ -44,6 +53,7 @@
     margin-right: 20px;
     background-color: transparent;
     border: 3px solid #9500ff;
+    outline: none;
 }
 
 .cancel01, .submit01, .missionC, .missionS {
@@ -98,7 +108,14 @@
 }
 .each-list-wrapper:hover {
     width: 100%;
-    border: 3px solid #00ffff;
+    border-left: 2px solid #00ffff;
+    border-right: 2px solid #9500ff;
+    background-image: -webkit-linear-gradient(left, #00ffff, #9500ff), -webkit-linear-gradient(left, #00ffff, #9500ff);
+    background-image: linear-gradient(left, #00ffff, #9500ff), linear-gradient(left, #00ffff, #9500ff);
+    background-size: 100% 2px;
+    background-position: 0 100%, 0 0;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -124,7 +141,14 @@
     margin-top: 20px;
 }
 .list-wrapper table.mission-info:hover {
-    border: 1px solid #00ffff;
+    border-left: 1px solid #00ffff;
+    border-right: 1px solid #9500ff;
+    background-image: -webkit-linear-gradient(left, #00ffff, #9500ff), -webkit-linear-gradient(left, #00ffff, #9500ff);
+    background-image: linear-gradient(left, #00ffff, #9500ff), linear-gradient(left, #00ffff, #9500ff);
+    background-size: 100% 1px;
+    background-position: 0 100%, 0 0;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     box-sizing: border-box;
 }
 .list-wrapper td {
