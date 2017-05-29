@@ -103,10 +103,11 @@
     background-color: transparent;
 }
 .each-list-wrapper {
-    width: 100%;
+    width: calc(100% - 4px);
     box-sizing: border-box;
+    margin: 0 auto;
 }
-.each-list-wrapper:hover {
+.each-list-wrapper:hover .each-list-wrapper:active {
     width: 100%;
     border-left: 2px solid #00ffff;
     border-right: 2px solid #9500ff;
