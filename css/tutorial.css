@@ -1,3 +1,4 @@
+
 @import "common.css";
 /* tutorial common */
 body {
@@ -48,6 +49,21 @@ body {
 .chat h3 {
     margin-left: 5px;
     font-family: consolas;
+    width: 200px;
+    display: inline-block;
+}
+.chatDownCon {
+    display: inline-block;
+    width: 45px;
+    float: right;
+    text-align: center;
+}
+.chatDownCon .chatDown button#downBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .system {
     width: 1200px;

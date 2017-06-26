@@ -105,9 +105,14 @@
 .each-list-wrapper {
     width: calc(100% - 4px);
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
-.each-list-wrapper:hover .each-list-wrapper:active {
+.each-list-wrapper02 {
+    width: calc(100% - 2px);
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+}
+.each-list-wrapper:hover, .each-list-wrapper:active {
     width: 100%;
     border-left: 2px solid #00ffff;
     border-right: 2px solid #9500ff;
@@ -119,7 +124,18 @@
     background-clip: border-box;
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+}
+.each-list-wrapper02:hover, .each-list-wrapper02:active {
+    width: 100%;
+    border-left: 1px solid #00ffff;
+    border-right: 1px solid #9500ff;
+    background-image: -webkit-linear-gradient(left, #00ffff, #9500ff), -webkit-linear-gradient(left, #00ffff, #9500ff);
+    background-image: linear-gradient(left, #00ffff, #9500ff), linear-gradient(left, #00ffff, #9500ff);
+    background-size: 100% 1px;
+    background-position: 0 100%, 0 0;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    box-sizing: border-box;
 }
 .list-wrapper .mission-info, .list-wrapper .quest-info-title {
     width: 100%;
@@ -141,7 +157,7 @@
     box-sizing: border-box;
     margin-top: 20px;
 }
-.list-wrapper table.mission-info:hover {
+/*.list-wrapper table.mission-info:hover {
     border-left: 1px solid #00ffff;
     border-right: 1px solid #9500ff;
     background-image: -webkit-linear-gradient(left, #00ffff, #9500ff), -webkit-linear-gradient(left, #00ffff, #9500ff);
@@ -151,7 +167,7 @@
     background-repeat: no-repeat;
     background-clip: border-box;
     box-sizing: border-box;
-}
+}*/
 .list-wrapper td {
     display: inline-block;
     box-sizing: border-box;
