@@ -111,6 +111,7 @@
     width: calc(100% - 2px);
     box-sizing: border-box;
     margin: 0 auto 20px;
+    background-color: #191F28;
 }
 .each-list-wrapper:hover, .each-list-wrapper:active {
     width: 100%;
