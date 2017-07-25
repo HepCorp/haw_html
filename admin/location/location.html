@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="/haw_html/admin/css/common.css">
     <link type="text/css" rel="stylesheet" href="/haw_html/admin/css/location.css">
-    <script type="text/javascript" rel="/haw_html/admin/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" rel="/haw_html/admin/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" rel="/haw_html/admin/js/location.js"></script>
+    <script type="text/javascript" src="/haw_html/admin/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/haw_html/admin/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/haw_html/admin/js/location.js"></script>
     <script src="https://www.w3schools.com/lib/w3data.js"></script>
     <title>HA.W ADMIN</title>
 </head>
@@ -27,7 +27,7 @@
                         <article class="continent-wrap">
                             <h3 class="loca-title">대륙</h3>
                             <div class="loca-con-wrap">
-                                <input type="radio" name="continent" id="continent01" class=""><label for="continent01">아시아</label>
+                                <input type="radio" name="continent" id="continent01" checked><label for="continent01">아시아</label>
                                 <input type="radio" name="continent" id="continent02"><label for="continent02">유럽</label>
                                 <input type="radio" name="continent" id="continent03"><label for="continent03">중동</label>
                                 <input type="radio" name="continent" id="continent04"><label for="continent04">아프리카</label>
@@ -36,11 +36,11 @@
                                 <input type="radio" name="continent" id="continent07"><label for="continent07">오세아니아</label>
                             </div>
                         </article>
-                        <article class="nation-wrap">
+                        <article class="nation-wrap nation-asia">
                             <h3 class="loca-title">나라</h3>
                             <div class="loca-con-wrap scroll-box">
                                 <input type="radio" name="nation" id="nation01"><label for="nation01">네팔</label>
-                                <input type="radio" name="nation" id="nation02"><label for="nation02">대한민국</label>
+                                <input type="radio" name="nation" id="nation02" checked><label for="nation02">대한민국</label>
                                 <input type="radio" name="nation" id="nation03"><label for="nation03">동티모르</label>
                                 <input type="radio" name="nation" id="nation04"><label for="nation04">라오스</label>
                                 <input type="radio" name="nation" id="nation05"><label for="nation05">러시아</label>
@@ -73,7 +73,23 @@
                                 <input type="radio" name="nation" id="nation32"><label for="nation32">홍콩</label>
                             </div>
                         </article>
-                        <article class="area-wrap">
+                        <article class="nation-wrap nation-eu">
+                            <h3 class="loca-title">나라</h3>
+                            <div class="loca-con-wrap scroll-box">
+                                <input type="radio" name="nation" id="nation011"><label for="nation011">그리스</label>
+                                <input type="radio" name="nation" id="nation012"><label for="nation012">네덜란드</label>
+                                <input type="radio" name="nation" id="nation013"><label for="nation013">노르웨이</label>
+                            </div>
+                        </article>
+                        <article class="nation-wrap nation-na">
+                            <h3 class="loca-title">나라</h3>
+                            <div class="loca-con-wrap scroll-box">
+                                <input type="radio" name="nation" id="nation021"><label for="nation021">그린란드</label>
+                                <input type="radio" name="nation" id="nation022"><label for="nation022">미국</label>
+                                <input type="radio" name="nation" id="nation023"><label for="nation023">캐나다</label>
+                            </div>
+                        </article>
+                        <article class="area-wrap area-kr">
                             <h3 class="loca-title">지역</h3>
                             <div class="loca-con-wrap scroll-box">
                                 <input type="radio" name="area" id="area01"><label for="area01">강원도</label>
@@ -89,16 +105,52 @@
                                 <input type="radio" name="area" id="area11"><label for="area11">인천광역시</label>
                                 <input type="radio" name="area" id="area12"><label for="area12">전라남도</label>
                                 <input type="radio" name="area" id="area13"><label for="area13">전라북도</label>
-                                <input type="radio" name="area" id="area14"><label for="area14">제주특별자치도</label>
+                                <input type="radio" name="area" id="area14" checked><label for="area14">제주특별자치도</label>
                                 <input type="radio" name="area" id="area15"><label for="area15">충청남도</label>
                                 <input type="radio" name="area" id="area16"><label for="area16">충청북도</label>
                             </div>
                         </article>
-                        <article class="city-wrap">
+                        <article class="area-wrap area-jp">
                             <h3 class="loca-title">지역</h3>
+                            <div class="loca-con-wrap scroll-box">
+                                <input type="radio" name="area" id="area011"><label for="area011">일본지역01</label>
+                                <input type="radio" name="area" id="area012"><label for="area012">일본지역02</label>
+                                <input type="radio" name="area" id="area013"><label for="area013">일본지역03</label>
+                            </div>
+                        </article>
+                        <article class="area-wrap area-ch">
+                            <h3 class="loca-title">지역</h3>
+                            <div class="loca-con-wrap scroll-box">
+                                <input type="radio" name="area" id="area021"><label for="area021">중국지역01</label>
+                                <input type="radio" name="area" id="area022"><label for="area022">중국지역02</label>
+                                <input type="radio" name="area" id="area023"><label for="area023">중국지역03</label>
+                            </div>
+                        </article>
+                        <article class="city-wrap city-jeju">
+                            <h3 class="loca-title">도시</h3>
                             <div class="loca-con-wrap">
-                                <input type="radio" name="city" id="city01"><label for="city01">서귀포시</label>
+                                <input type="radio" name="city" id="city01" checked><label for="city01">서귀포시</label>
                                 <input type="radio" name="city" id="city02"><label for="city02">제주시</label>
+                            </div>
+                        </article>
+                        <article class="city-wrap city-gg">
+                            <h3 class="loca-title">도시</h3>
+                            <div class="loca-con-wrap">
+                                <input type="radio" name="city" id="city011"><label for="city011">용인시</label>
+                                <input type="radio" name="city" id="city012"><label for="city012">성남시</label>
+                                <input type="radio" name="city" id="city013"><label for="city013">수원시</label>
+                                <input type="radio" name="city" id="city014"><label for="city014">고양시</label>
+                                <input type="radio" name="city" id="city015"><label for="city015">의정부시</label>
+                                <input type="radio" name="city" id="city016"><label for="city016">구리시</label>
+                            </div>
+                        </article>
+                        <article class="city-wrap city-cn">
+                            <h3 class="loca-title">도시</h3>
+                            <div class="loca-con-wrap">
+                                <input type="radio" name="city" id="city021"><label for="city021">천안시</label>
+                                <input type="radio" name="city" id="city022"><label for="city022">아산시</label>
+                                <input type="radio" name="city" id="city023"><label for="city023">대전시</label>
+                                <input type="radio" name="city" id="city024"><label for="city024">서산시</label>
                             </div>
                         </article>
                         <span class="loca-submit">
