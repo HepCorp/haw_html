@@ -1,0 +1,15 @@
+.team-wrap {
+    width: 100%;
+    background-color: brown;
+}
+article.each-team-wrap {
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+    margin-bottom: 30px;
+}
+div.team-top {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #ffffff;
+}

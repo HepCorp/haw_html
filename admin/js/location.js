@@ -13,8 +13,8 @@ $(document).ready(function() {
             $(".nation-na").css("display","none");
         }
     });
-    $("#continent03").click(function() {
-        if ($("#continent03").is(':checked')) {
+    $("#continent05").click(function() {
+        if ($("#continent05").is(':checked')) {
             $(".nation-asia").css("display","none");
             $(".nation-eu").css("display","none");
             $(".nation-na").css("display","inline-block");
