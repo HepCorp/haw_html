@@ -68,3 +68,32 @@ ul.team-bottom {
     height: 155px;
 
 }
+li.team-bottom01 {
+    width: 15%;
+    height: 150px;
+    background-color: aqua;
+    display: inline-block;
+    float: left;
+}
+li.team-bottom02 {
+    width: 35%;
+    height: 150px;
+    background-color: blueviolet;
+    display: inline-block;
+    float: left;
+}
+li.team-bottom03 {
+    width: 20%;
+    height: 150px;
+    background-color: chartreuse;
+    display: inline-block;
+    float: left;
+}
+
+li.team-bottom04 {
+    width: 30%;
+    height: 150px;
+    background-color: coral;
+    display: inline-block;
+    float: left;
+}
