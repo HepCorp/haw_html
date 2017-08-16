@@ -97,3 +97,15 @@ li.team-bottom04 {
     display: inline-block;
     float: left;
 }
+.team-mark {
+    margin: 15px auto;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #FFFFFF;
+    border-radius: 110px;
+}
+.team-mark img {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
